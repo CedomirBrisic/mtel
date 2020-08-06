@@ -54,6 +54,7 @@
     left: 48.5%;
     bottom: 6vw;
     animation: scrollArrows 1s infinite;
+    z-index: 300;
 }
 
 @keyframes scrollArrows {
@@ -118,7 +119,7 @@
 /*    ---------------------------        SNAKES      ---------------------------------------  */
 /*    ---------------------------        SNAKES      ---------------------------------------  */
 /*    ---------------------------        SNAKES      ---------------------------------------  */
-.square-whiteTitle-1 {
+.square-white-1 {
     width: 32.447916666666664VW;
     height: 8.59375VW;
     background-color: #ffffff;
@@ -126,6 +127,18 @@
     left: -18.385416666666668VW;
     top: 5.885416666666667VW;
     z-index: 101;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.square-whiteTitle-1 {
+    color: #ff1b2a;
+    font-size: 5.208333333333334VW;
+    font-weight: 700;
+    position: relative;
+    left: 94vw;
+    /* right: -100%; */
 }
 
 
@@ -165,70 +178,241 @@
 /*  ---------------------------        TITLES      ---------------------------------------  */
 /*  ---------------------------        TITLES      ---------------------------------------  */
 /*  ---------------------------        TITLES      ---------------------------------------  */
-.ppt1-title {
+.ppt1-title1 {
     color: #ffffff;
     font-size: 5.208333333333334VW;
     font-weight: 700;
     position: absolute;
     left: 9.79166667VW;
-    bottom: 60vw;
+    bottom: 17.15625VW;
     z-index: 5;
+}
+
+.ppt1-title2 {
+    color: #ffffff;
+    font-size: 5.208333333333334VW;
+    font-weight: 700;
+    position: absolute;
+    left: 9.79166667VW;
+    bottom: 11.15625VW;
+    z-index: 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ---------------------------        SIDEBAR      ---------------------------------------  */
+/*  ---------------------------        SIDEBAR      ---------------------------------------  */
+/*  ---------------------------        SIDEBAR      ---------------------------------------  */
+.sidebar-container {
+    width: 8.697916666666666VW;
+    height: 27.8125VW;
+    position: absolute;
+    left: 0;
+    top: 9.78125VW;
+    z-index: 300;
+    overflow: hidden;
+}
+
+.sidebar-marker{
+    width: 100%;
+    height: 20%;
+    background-color: #ff1b2a;
+    position: relative;
+    top: -21%;
+}
+
+
+/*  ---------------------------        SIDEBAR - SERIJE      ---------------------------------------  */
+.sidebar-serije-wrapper{
+    width: 8.697916666666666VW;
+    height: 5.5625VW;
+    position: absolute;
+    left: -8.697916666666666VW;
+    top: 9.78125VW;
+    z-index: 301;
+    display: flex;
+    align-items: center;
     opacity: 0;
-    animation: ppt1Title 2.4s forwards;
+}
+.sidebar-serije-left{
+    width: 3.4375000000000004VW;
+    height: 100%;
+}
+.sidebar-serije{
+    width: 3.177083333333333VW;
+    height: 3.3854166666666665VW;
+    background-image: url("./images/sidebarserije.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+}
+.sidebar-serije-wrapper:hover{
+    cursor: pointer;
+}
+.sidebar-serije-wrapper:hover > .sidebar-serije{
+    transform: scale(1.1);
 }
 
-@keyframes ppt1Title {
-    from {
-        bottom: 60vw;
-        opacity: 0;
-    }
+/*  ---------------------------        SIDEBAR - TELEVIZIJA      ---------------------------------------  */
+.sidebar-televizija-wrapper{
+    width: 8.697916666666666VW;
+    height: 5.5625VW;
+    position: absolute;
+    left: -8.697916666666666VW;
+    top: 15.34375VW;
+    z-index: 301;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+.sidebar-televizija-left{
+    width: 2.8125VW;
+    height: 100%;
+}
+.sidebar-televizija{
+    width: 4.270833333333333VW;
+    height: 3.5416666666666665VW;
+    background-image: url("./images/sidebartelevizija.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+}
+.sidebar-televizija-wrapper:hover{
+    cursor: pointer;
+}
+.sidebar-televizija-wrapper:hover > .sidebar-televizija{
+    transform: scale(1.1);
+}
 
-    to {
-        bottom: 11.15625VW;
-        opacity: 1;
-    }
+
+
+/*  ---------------------------        SIDEBAR - CALLING      ---------------------------------------  */
+.sidebar-calling-wrapper{
+    width: 8.697916666666666VW;
+    height: 5.5625VW;
+    position: absolute;
+    left: -8.697916666666666VW;
+    top: 20.90625VW;
+    z-index: 301;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+.sidebar-calling-left{
+    width: 3.3333333333333335VW;
+    height: 100%;
+}
+.sidebar-calling{
+    width: 3.28125VW;
+    height: 4.427083333333334VW;
+    background-image: url("./images/sidebarcalling.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+}
+.sidebar-calling-wrapper:hover{
+    cursor: pointer;
+}
+.sidebar-calling-wrapper:hover > .sidebar-calling{
+    transform: scale(1.1);
+}
+
+
+/*  ---------------------------        SIDEBAR - HOMEPHONE      ---------------------------------------  */
+.sidebar-homephone-wrapper{
+    width: 8.697916666666666VW;
+    height: 5.5625VW;
+    position: absolute;
+    left: -8.697916666666666VW;
+    top: 26.46875VW;
+    z-index: 301;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+.sidebar-homephone-left{
+    width: 2.5520833333333335VW;
+    height: 100%;
+}
+.sidebar-homephone{
+    width: 4.791666666666667VW;
+    height: 4.166666666666666VW;
+    background-image: url("./images/sidebarhomephone.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+}
+.sidebar-homephone-wrapper:hover{
+    cursor: pointer;
+}
+.sidebar-homephone-wrapper:hover > .sidebar-homephone{
+    transform: scale(1.1);
+}
+
+
+/*  ---------------------------        SIDEBAR - TOPPONUDA      ---------------------------------------  */
+.sidebar-topponuda-wrapper{
+    width: 8.697916666666666VW;
+    height: 5.5625VW;
+    position: absolute;
+    left: -8.697916666666666VW;
+    top: 32.03125VW;
+    z-index: 301;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+.sidebar-topponuda-left{
+    width: 2.5VW;
+    height: 100%;
+}
+.sidebar-topponuda{
+    width: 4.947916666666666VW;
+    height: 4.166666666666666VW;
+    background-image: url("./images/sidebartopponuda.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+}
+.sidebar-topponuda-wrapper:hover{
+    cursor: pointer;
+}
+.sidebar-topponuda-wrapper:hover > .sidebar-topponuda{
+    transform: scale(1.1);
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  ---------------------------        TRIGGERS      ---------------------------------------  */
 /*  ---------------------------        TRIGGERS      ---------------------------------------  */
 /*  ---------------------------        TRIGGERS      ---------------------------------------  */
 
-.ppt1-title-trigger {
+.ppt1-initial-trigger {
     margin-top: 100vh;
-    height: 60vh;
+    height: 20vh;
 }
 
 .ppt2-background-trigger {
     height: 100vh;
 }
 
-.ppt2-backgroundafter-trigger{
+.ppt2-backgroundafter-trigger {
     height: 40vh;
 }
