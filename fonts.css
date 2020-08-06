@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Thin.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Thin\ Italic.otf") format("opentype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ ExtraLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ ExtraLight\ Italic.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Light\ Italic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Book.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Book\ Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Medium\ Italic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ SemiBold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ SemiBold\ Italic.otf") format("opentype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Bold\ Italic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ ExtraBold.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ ExtraBold\ Italic.otf") format("opentype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Black.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Black";
+    src: url("./fonts/Rene\ Bieder\ -\ Campton\ Black\ Italic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
