@@ -54,7 +54,7 @@
     left: 48.5%;
     bottom: 6vw;
     animation: scrollArrows 1s infinite;
-    z-index: 300;
+    z-index: 10;
 }
 
 @keyframes scrollArrows {
@@ -127,6 +127,81 @@
 
 
 
+.ppt4-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/calling.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 30;
+}
+
+.ppt4-background:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./images/callingRed.png");
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1
+}
+
+
+
+.ppt5-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/homephone.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 30;
+}
+
+.ppt5-background:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./images/homephoneBlue.png");
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1
+}
+
+
+
+.ppt6-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/topponuda.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 30;
+}
+
+.ppt6-background:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./images/topponudaRed.png");
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1
+}
+
+
+
 
 
 
@@ -169,6 +244,82 @@
 }
 
 
+
+.square-white-2 {
+    width: 40.729166666666664VW;
+    height: 8.59375VW;
+    background-color: #ffffff;
+    position: absolute;
+    right: -42vw;
+    top: 5VW;
+    z-index: 102;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.square-whiteTitle-2 {
+    color: #ff1b2a;
+    font-size: 5.208333333333334VW;
+    font-weight: 700;
+    position: relative;
+    right: 35.5vw;
+}
+
+
+
+
+.square-white-3 {
+    width: 35.833333333333336VW;
+    height: 8.59375VW;
+    background-color: #ffffff;
+    position: absolute;
+    right: -36vw;
+    top: 5VW;
+    z-index: 103;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* border: 1px solid purple; */
+}
+
+.square-whiteTitle-3 {
+    color: #ff1b2a;
+    font-size: 5.208333333333334VW;
+    font-weight: 700;
+    position: relative;
+    right: 30vw;
+}
+
+
+
+
+.square-white-4 {
+    width: 43.958333333333336VW;
+    height: 8.59375VW;
+    background-color: #ffffff;
+    position: absolute;
+    right: -44vw;
+    top: 5VW;
+    z-index: 104;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.square-whiteTitle-4 {
+    color: #ff1b2a;
+    font-size: 5.208333333333334VW;
+    font-weight: 700;
+    position: relative;
+    right: 45vw;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------- */
 
 
 
@@ -219,26 +370,6 @@
 
 
 
-.square-white-2 {
-    width: 40.729166666666664VW;
-    height: 8.59375VW;
-    background-color: #ffffff;
-    position: absolute;
-    right: -42vw;
-    top: 5VW;
-    z-index: 102;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-}
-
-.square-whiteTitle-2 {
-    color: #ff1b2a;
-    font-size: 5.208333333333334VW;
-    font-weight: 700;
-    position: relative;
-    right: 35.5vw;
-}
 
 
 
@@ -321,6 +452,8 @@
 
 .ppt2-button:hover {
     cursor: pointer;
+    background-color: #59595b;
+    color: #ffffff;
 }
 
 
@@ -410,6 +543,8 @@
 
 .ppt3-button:hover {
     cursor: pointer;
+    background-color: #59595b;
+    color: #ffffff;
 }
 
 
@@ -633,25 +768,60 @@
 /*  ---------------------------        TRIGGERS      ---------------------------------------  */
 /*  ---------------------------        TRIGGERS      ---------------------------------------  */
 
+
+
+.break-zone{
+    height: 33vh;
+}
 .ppt1-initial-trigger {
     margin-top: 100vh;
     height: 20vh;
 }
 
+
+
 .ppt2-background-trigger {
     height: 100vh;
 }
 
-
-
 .ppt2-backgroundafter-trigger {
     height: 40vh;
 }
+
+
 
 .ppt3-background-trigger {
     height: 100vh;
 }
 
 .ppt3-backgroundafter-trigger {
+    height: 40vh;
+}
+
+
+
+
+.ppt4-background-trigger {
+    height: 100vh;
+}
+
+.ppt4-backgroundafter-trigger {
+    height: 40vh;
+}
+
+
+.ppt5-background-trigger {
+    height: 100vh;
+}
+
+.ppt5-backgroundafter-trigger {
+    height: 40vh;
+}
+
+.ppt6-background-trigger {
+    height: 100vh;
+}
+
+.ppt6-backgroundafter-trigger {
     height: 40vh;
 }

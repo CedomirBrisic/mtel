@@ -60,6 +60,88 @@ $(document).ready(function () {
 
 
 
+    gsap.to(".ppt4-background", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        bottom: "0"
+    })
+
+
+    var ppt4after = CSSRulePlugin.getRule(".ppt4-background:after"); //get the rule
+    gsap.to(ppt4after, {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-backgroundafter-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        opacity: 0
+    })
+
+
+
+
+    gsap.to(".ppt5-background", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        bottom: "0"
+    })
+
+
+    var ppt5after = CSSRulePlugin.getRule(".ppt5-background:after"); //get the rule
+    gsap.to(ppt5after, {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-backgroundafter-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        opacity: 0
+    })
+
+
+
+    gsap.to(".ppt6-background", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        bottom: "0"
+    })
+
+
+    var ppt6after = CSSRulePlugin.getRule(".ppt6-background:after"); //get the rule
+    gsap.to(ppt6after, {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-backgroundafter-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        opacity: 0
+    })
+
+
+
+
+
+
 
 
 
@@ -144,6 +226,71 @@ $(document).ready(function () {
         left: "2.7083333333333335VW"
     })
 
+
+
+
+
+    gsap.to(".square-white-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        right: "0vw"
+    })
+
+    gsap.to(".square-whiteTitle-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1,
+
+        },
+        left: "4.53125VW"
+    })
+
+    // gsap.to(".square-white-2", {
+    //     scrollTrigger: {
+    //         toggleActions: "play pause resume reset",
+    //         trigger: ".ppt3-background-trigger",
+    //         start: "top 50%",
+    //         end: "bottom 100%",
+    //         scrub: 1
+    //     },
+    //     right: "-5VW"
+    // })
+
+
+
+
+
+
+    gsap.to(".square-white-4", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        right: "-2.03125VW"
+    })
+
+    gsap.to(".square-whiteTitle-4", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1,
+
+        },
+        left: "2.1875VW"
+    })
 
 
 
@@ -381,16 +528,26 @@ $(document).ready(function () {
         top: 0
     }).to(".sidebar-marker", {
         top: "20%"
+    }).to(".sidebar-marker", {
+        top: "40%"
+    }).to(".sidebar-marker", {
+        top: "60%"
+    }).to(".sidebar-marker", {
+        top: "80%"
     })
     ScrollTrigger.create({
         toggleActions: "play pause resume reset",
         animation: sidebarMarkerTl,
         trigger: ".ppt2-background-trigger",
         start: "top bottom",
-        endTrigger: ".ppt3-background-trigger",
+        endTrigger: ".ppt6-background-trigger",
         end: "bottom 100%",
         scrub: 1
     })
+
+
+
+
 
 
 
@@ -406,6 +563,31 @@ $(document).ready(function () {
         gsap.to(window, {
             duration: 0.5,
             scrollTo: ".ppt3-background-trigger"
+        });
+    });
+
+
+
+    $(".sidebar-calling-wrapper").click(function () {
+        gsap.to(window, {
+            duration: 0.5,
+            scrollTo: ".ppt4-background-trigger"
+        });
+    });
+
+
+
+    $(".sidebar-homephone-wrapper").click(function () {
+        gsap.to(window, {
+            duration: 0.5,
+            scrollTo: ".ppt5-background-trigger"
+        });
+    });
+
+    $(".sidebar-topponuda-wrapper").click(function () {
+        gsap.to(window, {
+            duration: 0.5,
+            scrollTo: ".ppt6-background-trigger"
         });
     });
 
