@@ -144,7 +144,7 @@ $(document).ready(function () {
             toggleActions: "play pause resume reset",
             trigger: ".footer-trigger",
             start: "top bottom",
-            end: "bottom 100%",
+            end: "top 50%",
             scrub: 1
         },
         bottom: "0"
@@ -158,7 +158,7 @@ $(document).ready(function () {
     /*    ---------------------------        SNAKES      ---------------------------------------  */
     /*    ---------------------------        SNAKES      ---------------------------------------  */
     /*    ---------------------------        SNAKES      ---------------------------------------  */
-    gsap.to(".square-red-1", {
+    gsap.to(".snake-red-1", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt1-initial-trigger",
@@ -173,7 +173,7 @@ $(document).ready(function () {
 
 
 
-    gsap.to(".square-blue-1", {
+    gsap.to(".snake-blue-1", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt2-background-trigger",
@@ -186,7 +186,201 @@ $(document).ready(function () {
     })
 
 
-    gsap.to(".square-white-1", {
+
+    gsap.to(".snake-red-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt2-background-trigger",
+            start: "top 30%",
+            endTrigger: ".ppt3-background-trigger",
+            end: "top bottom",
+            scrub: 1,
+
+        },
+        top: "100%"
+    })
+
+    gsap.to(".snake-blue-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt2-backgroundafter-trigger",
+            start: "top 50%",
+            endTrigger: ".ppt3-backgroundafter-trigger",
+            end: "top bottom",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+
+    gsap.to(".snake-red-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt3-background-trigger",
+            start: "top 20%",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+
+    gsap.to(".whitesnake-1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt3-background-trigger",
+            start: "top top",
+            scrub: 1,
+
+        },
+        left: "100%"
+    })
+
+
+    gsap.to(".snake-blue-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt3-backgroundafter-trigger",
+            start: "top bottom",
+            endTrigger: ".ppt4-background-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        right: "100%"
+    })
+
+    gsap.to(".snake-blue-4", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-background-trigger",
+            start: "top 80%",
+            endTrigger: ".ppt5-background-trigger",
+            end: "top 70%",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+    gsap.to(".snake-red-4", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-background-trigger",
+            start: "top 80%",
+            endTrigger: ".ppt6-backgroundafter-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        left: "100%"
+    })
+
+    gsap.to(".whitesnake-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-backgroundafter-trigger",
+            start: "top bottom",
+            endTrigger: ".ppt6-backgroundafter-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+
+
+    gsap.to(".snake-blue-5", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-background-trigger",
+            start: "top 50%",
+            endTrigger: ".ppt6-backgroundafter-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        right: "100%"
+    })
+
+    gsap.to(".snake-red-5", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-backgroundafter-trigger",
+            start: "top 90%",
+            endTrigger: ".ppt6-backgroundafter-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+    gsap.to(".snake-red-6", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-backgroundafter-trigger",
+            start: "top 40%",
+            endTrigger: ".ppt6-background-trigger",
+            end: "top 75%",
+            scrub: 1,
+
+        },
+        top: "100%"
+    })
+
+
+    gsap.to(".whitesnake-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-background-trigger",
+            start: "top 80%",
+            endTrigger: ".footer-trigger",
+            end: "top bottom",
+            scrub: 1,
+
+        },
+        right: "100%"
+    })
+    gsap.to(".snake-blue-6", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-background-trigger",
+            start: "top top",
+            endTrigger: ".footer-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+    gsap.to(".snake-red-7", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-background-trigger",
+            start: "top 20%",
+            endTrigger: ".footer-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        top: "100%"
+    })
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------ WHITESNAKE ------------------------------------
+    gsap.to(".snake-white-1", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt1-initial-trigger",
@@ -199,7 +393,7 @@ $(document).ready(function () {
         left: "69.84375VW"
     })
 
-    gsap.to(".square-whiteTitle-1", {
+    gsap.to(".snake-whiteTitle-1", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt1-initial-trigger",
@@ -213,7 +407,7 @@ $(document).ready(function () {
 
 
 
-    gsap.to(".square-white-2", {
+    gsap.to(".snake-white-2", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt3-background-trigger",
@@ -224,7 +418,7 @@ $(document).ready(function () {
         right: "-2.2916666666666665VW"
     })
 
-    gsap.to(".square-whiteTitle-2", {
+    gsap.to(".snake-whiteTitle-2", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt3-background-trigger",
@@ -240,7 +434,7 @@ $(document).ready(function () {
 
 
 
-    gsap.to(".square-white-3", {
+    gsap.to(".snake-white-3", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt4-background-trigger",
@@ -251,7 +445,7 @@ $(document).ready(function () {
         right: "0vw"
     })
 
-    gsap.to(".square-whiteTitle-3", {
+    gsap.to(".snake-whiteTitle-3", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt4-background-trigger",
@@ -263,23 +457,11 @@ $(document).ready(function () {
         left: "4.53125VW"
     })
 
-    // gsap.to(".square-white-2", {
-    //     scrollTrigger: {
-    //         toggleActions: "play pause resume reset",
-    //         trigger: ".ppt3-background-trigger",
-    //         start: "top 50%",
-    //         end: "bottom 100%",
-    //         scrub: 1
-    //     },
-    //     right: "-5VW"
-    // })
 
 
 
 
-
-
-    gsap.to(".square-white-4", {
+    gsap.to(".snake-white-4", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt5-background-trigger",
@@ -290,7 +472,7 @@ $(document).ready(function () {
         right: "-3.03125VW"
     })
 
-    gsap.to(".square-whiteTitle-4", {
+    gsap.to(".snake-whiteTitle-4", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt5-background-trigger",
@@ -303,7 +485,7 @@ $(document).ready(function () {
     })
 
 
-    gsap.to(".square-white-5", {
+    gsap.to(".snake-white-5", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt6-background-trigger",
@@ -314,7 +496,7 @@ $(document).ready(function () {
         right: "-1.875VW"
     })
 
-    gsap.to(".square-whiteTitle-5", {
+    gsap.to(".snake-whiteTitle-5", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt6-background-trigger",
@@ -442,7 +624,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "17.6VW",
+        top: "16.6VW",
         opacity: 1
     })
     gsap.to(".ppt3-title2", {
@@ -455,7 +637,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "20.8VW",
+        top: "19.8VW",
         opacity: 1
     })
 
@@ -469,7 +651,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "24.2VW",
+        top: "23VW",
         opacity: 1
     })
 
@@ -483,7 +665,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "28VW",
+        top: "27.5VW",
         opacity: 1
     })
 
@@ -497,7 +679,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "30.5vw",
+        top: "29.7vw",
         opacity: 1
     })
 
@@ -511,7 +693,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "36.71875VW",
+        top: "34VW",
         opacity: 1
     })
 
@@ -533,7 +715,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "17.6VW",
+        top: "16.6VW",
         opacity: 1
     })
     gsap.to(".ppt4-title2", {
@@ -546,7 +728,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "20.8VW",
+        top: "19.8VW",
         opacity: 1
     })
 
@@ -560,7 +742,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "24.2VW",
+        top: "23VW",
         opacity: 1
     })
 
@@ -574,7 +756,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "28VW",
+        top: "27.5VW",
         opacity: 1
     })
 
@@ -588,7 +770,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "30.5vw",
+        top: "29.7vw",
         opacity: 1
     })
 
@@ -602,7 +784,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "36.71875VW",
+        top: "34VW",
         opacity: 1
     })
 
@@ -622,7 +804,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "17.6VW",
+        top: "16.6VW",
         opacity: 1
     })
     gsap.to(".ppt5-title2", {
@@ -635,7 +817,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "20.8VW",
+        top: "19.8VW",
         opacity: 1
     })
 
@@ -650,7 +832,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "28VW",
+        top: "26VW",
         opacity: 1
     })
 
@@ -664,7 +846,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "30.5vw",
+        top: "28.2vw",
         opacity: 1
     })
 
@@ -678,7 +860,7 @@ $(document).ready(function () {
 
         },
         right: "5.5VW",
-        top: "36.71875VW",
+        top: "34VW",
         opacity: 1
     })
 

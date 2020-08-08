@@ -8,11 +8,14 @@
     font-family: "Campton Black";
     scroll-behavior: smooth;
 }
+body::-webkit-scrollbar{
+    width: 0;
+    scroll-behavior: smooth;
+}
 
 .header {
     width: 100%;
     height: 10.463vh;
-    /* height: 5.885416666666667VW; */
     background-image: url("./header.png");
     background-size: 100% 100%;
     position: fixed;
@@ -231,7 +234,7 @@
 /*    ---------------------------        SNAKES      ---------------------------------------  */
 /*    ---------------------------        SNAKES      ---------------------------------------  */
 /*    ---------------------------        SNAKES      ---------------------------------------  */
-.square-white-1 {
+.snake-white-1 {
     width: 32.447916666666664VW;
     height: 8.59375VW;
     background-color: #ffffff;
@@ -244,7 +247,7 @@
     overflow: hidden;
 }
 
-.square-whiteTitle-1 {
+.snake-whiteTitle-1 {
     color: #ff1b2a;
     font-size: 5.208333333333334VW;
     font-weight: 700;
@@ -255,7 +258,7 @@
 
 
 
-.square-white-2 {
+.snake-white-2 {
     width: 40.729166666666664VW;
     height: 8.59375VW;
     background-color: #ffffff;
@@ -268,7 +271,7 @@
     overflow: hidden;
 }
 
-.square-whiteTitle-2 {
+.snake-whiteTitle-2 {
     color: #ff1b2a;
     font-size: 5.208333333333334VW;
     font-weight: 700;
@@ -279,7 +282,7 @@
 
 
 
-.square-white-3 {
+.snake-white-3 {
     width: 35.833333333333336VW;
     height: 8.59375VW;
     background-color: #ffffff;
@@ -293,7 +296,7 @@
     /* border: 1px solid purple; */
 }
 
-.square-whiteTitle-3 {
+.snake-whiteTitle-3 {
     color: #ff1b2a;
     font-size: 5.208333333333334VW;
     font-weight: 700;
@@ -304,7 +307,7 @@
 
 
 
-.square-white-4 {
+.snake-white-4 {
     width: 43.958333333333336VW;
     height: 8.59375VW;
     background-color: #ffffff;
@@ -317,7 +320,7 @@
     overflow: hidden;
 }
 
-.square-whiteTitle-4 {
+.snake-whiteTitle-4 {
     color: #ff1b2a;
     font-size: 5.208333333333334VW;
     font-weight: 700;
@@ -326,7 +329,7 @@
 }
 
 
-.square-white-5 {
+.snake-white-5 {
     width: 43.958333333333336VW;
     height: 8.59375VW;
     background-color: #ffffff;
@@ -339,7 +342,7 @@
     overflow: hidden;
 }
 
-.square-whiteTitle-5 {
+.snake-whiteTitle-5 {
     color: #ff1b2a;
     font-size: 5.208333333333334VW;
     font-weight: 700;
@@ -354,7 +357,7 @@
 
 
 
-.square-blue-1 {
+.snake-blue-1 {
     width: 8.645833333333334VW;
     height: 25.3125VW;
     background-color: #002240;
@@ -364,7 +367,7 @@
     z-index: 11;
 }
 
-.square-red-1 {
+.snake-red-1 {
     width: 24VW;
     height: 8.59375VW;
     background-color: #ff1b2a;
@@ -378,7 +381,7 @@
 
 
 
-.square-red-2 {
+.snake-red-2 {
     width: 8.59375VW;
     height: 28.072916666666664VW;
     background-color: #ff1b2a;
@@ -388,7 +391,7 @@
     z-index: 11;
 }
 
-.square-blue-2 {
+.snake-blue-2 {
     width: 8.59375VW;
     height: 25.3125VW;
     background-color: #002240;
@@ -398,6 +401,133 @@
     z-index: 11;
 }
 
+.snake-red-3{
+    width: 8.59375VW;
+    height: 28.072916666666664VW;
+    background-color: #ff1b2a;
+    position: absolute;
+    left: 12.1875VW;
+    bottom: -29VW;
+    z-index: 21;
+}
+
+.whitesnake-1{
+    width: 15.104166666666666VW;
+    height: 8.59375VW;
+    background-color: #ffffff;
+    position: absolute;
+    left: -16vw;
+    bottom: -2.3958333333333335VW;
+    z-index: 21;
+}
+
+.snake-blue-3{
+    width: 25.3125VW;
+    height: 6.4VW;
+    background-color: #002240;
+    position: absolute;
+    right: -26vw;
+    bottom: 4.270833333333333VW;
+    z-index: 21;
+}
+
+
+
+.snake-blue-4{
+    width:  8.59375VW;
+    height: 25.3125VW;
+    background-color: #002240;
+    position: absolute;
+    right: 5.260416666666667VW;
+    bottom: -26vw;
+    z-index: 31;
+}
+
+
+.snake-red-4{
+    width: 28.072916666666664VW;
+    height: 8.59375VW;
+    background-color: #ff1b2a;
+    position: absolute;
+    left: -29vw;
+    bottom: 3vw;
+    z-index: 31;
+}
+
+
+.whitesnake-2{
+    width: 8.59375VW;
+    height: 25.3125VW;
+    background-color: #ffffff;
+    position: absolute;
+    right: 69.01041666666666VW;
+    bottom: -26VW;
+    z-index: 32;
+}
+
+
+
+
+.snake-blue-5{
+    width: 41.40625VW;
+    height:  7.6VW;
+    background-color: #002240;
+    position: absolute;
+    right: -42VW;
+    bottom: 5.2vw;
+    z-index: 42;
+}
+
+.snake-red-5{
+    width: 8.59375VW;
+    height:  19.739583333333332VW;
+    background-color: #ff1b2a;
+    position: absolute;
+    right: 25VW;
+    bottom: -20vw;
+    z-index: 43;
+}
+
+.snake-red-6{
+    width: 8.59375VW;
+    height:  19.739583333333332VW;
+    background-color: #ff1b2a;
+    position: absolute;
+    left: 11.666666666666666VW;
+    top: -20vw;
+    z-index: 41;
+}
+
+
+
+
+.whitesnake-3{
+    width: 15.677083333333334VW;
+    height: 8.59375VW;
+    background-color: #ffffff;
+    position: absolute;
+    right: -16VW;
+    bottom: -3.5VW;
+    z-index: 52;
+}
+.snake-blue-6{
+    width: 8.59375VW;
+    height: 41.40625VW;
+    background-color: #002240;
+    position: absolute;
+    left: 10.42VW;
+    bottom: -42;
+    z-index: 51;
+}
+.snake-red-7{
+    width: 8.59375VW;
+    height:  19.739583333333332VW;
+    background-color: #ff1b2a;
+    position: absolute;
+    right: 25VW;
+    top: -20vw;
+    z-index: 51;
+}
 
 
 
@@ -445,7 +575,7 @@
     font-weight: 700;
     position: absolute;
     right: 5.5VW;
-    top: 17.6VW;
+    top: 16.6VW;
     z-index: 15;
     text-align: right;
     line-height: 3.2vw;
@@ -475,7 +605,7 @@
     font-weight: 500;
     position: absolute;
     right: 5.5VW;
-    top: 36.71875VW;
+    top: 34.71875VW;
     z-index: 15;
     opacity: 1;
     text-decoration: none;
@@ -685,8 +815,8 @@
     font-size: 2.864583333333333VW;
     font-weight: 700;
     position: absolute;
-    right: 80vw;
-    top: 180vw;
+    right: 100%;
+    top: 25%;
     z-index: 45;
     line-height: 3.2vw;
     opacity: 0;
@@ -699,8 +829,8 @@
     font-weight: 700;
     position: absolute;
     z-index: 45;
-    right: 80vw;
-    top: 160vw;
+    right: 100%;
+    top: 65%;
     line-height: 3.2vw;
     opacity: 0;
     white-space: nowrap;
@@ -712,8 +842,8 @@
     font-weight: 500;
     color: #ffffff;
     position: absolute;
-    right: 80vw;
-    top: 140vw;
+    right: 120%;
+    top: 35%;
     z-index: 45;
     opacity: 0;
     white-space: nowrap;
@@ -724,8 +854,8 @@
     font-weight: 500;
     color: #ffffff;
     position: absolute;
-    right: 80vw;
-    top: 120vw;
+    right: 100%;
+    top: 65%;
     z-index: 45;
     opacity: 0;
     white-space: nowrap;
@@ -742,8 +872,8 @@
     font-size: 1.5625VW;
     font-weight: 500;
     position: absolute;
-    right: 80vw;
-    top: 100vw;
+    right: 110%;
+    top: 42%;
     z-index: 45;
     opacity: 0;
     text-decoration: none;
