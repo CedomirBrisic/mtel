@@ -205,15 +205,26 @@ body::-webkit-scrollbar{
 
 
 
-.footer-container{
+.footerikonice-container{
     width: 100%;
-    height: 100%;
+    height: 50%;
     position: absolute;
-    background-image: url("./images/footer.png");
+    background-image: url("./images/footerIkonice.png");
     background-size: 100% 100%;
     background-position: center;
     z-index: 400;
 }
+
+.footerBlue-container{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-image: url("./images/footerBlue.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 400;
+}
+
 
 
 
@@ -276,7 +287,7 @@ body::-webkit-scrollbar{
     font-size: 5.208333333333334VW;
     font-weight: 700;
     position: relative;
-    right: 35.5vw;
+    right: 37vw;
 }
 
 
@@ -301,7 +312,7 @@ body::-webkit-scrollbar{
     font-size: 5.208333333333334VW;
     font-weight: 700;
     position: relative;
-    right: 30vw;
+    right: 29.2vw;
 }
 
 
@@ -325,7 +336,7 @@ body::-webkit-scrollbar{
     font-size: 5.208333333333334VW;
     font-weight: 700;
     position: relative;
-    right: 45vw;
+    right: 38.8vw;
 }
 
 
@@ -347,7 +358,7 @@ body::-webkit-scrollbar{
     font-size: 5.208333333333334VW;
     font-weight: 700;
     position: relative;
-    right: 42VW;
+    right: 41VW;
 }
 
 
@@ -626,15 +637,15 @@ body::-webkit-scrollbar{
     font-size: 2.864583333333333VW;
     font-weight: 700;
     position: absolute;
-    right: 42vw;
-    top: -12vw;
+    right: -33vw;
+    top: 16.6VW;
     z-index: 25;
+    text-align: right;
     line-height: 3.2vw;
     opacity: 0;
-    white-space: nowrap;
 }
 
-.ppt3-title2 {
+/* .ppt3-title2 {
     color: #ffffff;
     font-size: 2.864583333333333VW;
     font-weight: 700;
@@ -645,9 +656,9 @@ body::-webkit-scrollbar{
     line-height: 3.2vw;
     opacity: 0;
     white-space: nowrap;
-}
+} */
 
-.ppt3-title3 {
+/* .ppt3-title3 {
     color: #ffffff;
     font-size: 2.864583333333333VW;
     font-weight: 700;
@@ -658,21 +669,20 @@ body::-webkit-scrollbar{
     line-height: 3.2vw;
     opacity: 0;
     white-space: nowrap;
-}
+} */
 
 .ppt3-subtitle1 {
     font-size: 1.875VW;
     font-weight: 500;
     color: #ffffff;
     position: absolute;
-    right: 67vw;
-    top: -24vw;
+    right: -38vw;
+    top: 28VW;
     z-index: 25;
-    opacity: 0;
-    white-space: nowrap;
+    text-align: right;
 }
 
-.ppt3-subtitle2 {
+/* .ppt3-subtitle2 {
     font-size: 1.875VW;
     font-weight: 500;
     color: #ffffff;
@@ -682,7 +692,7 @@ body::-webkit-scrollbar{
     z-index: 25;
     opacity: 0;
     white-space: nowrap;
-}
+} */
 
 .ppt3-button {
     width: 12.291666666666666VW;
@@ -695,8 +705,8 @@ body::-webkit-scrollbar{
     font-size: 1.5625VW;
     font-weight: 500;
     position: absolute;
-    right: 49vw;
-    top: -12vw;
+    right: 5.5VW;
+    top: 100%;
     z-index: 25;
     opacity: 0;
     text-decoration: none;
@@ -721,15 +731,15 @@ body::-webkit-scrollbar{
     font-size: 2.864583333333333VW;
     font-weight: 700;
     position: absolute;
-    right: 100vw;
-    top: 28VW;
+    right: -37vw;
+    top: 16.6VW;
     z-index: 35;
+    text-align: right;
     line-height: 3.2vw;
     opacity: 0;
-    white-space: nowrap;
 }
 
-.ppt4-title2 {
+/* .ppt4-title2 {
     color: #ffffff;
     font-size: 2.864583333333333VW;
     font-weight: 700;
@@ -753,21 +763,20 @@ body::-webkit-scrollbar{
     line-height: 3.2vw;
     opacity: 0;
     white-space: nowrap;
-}
+} */
 
 .ppt4-subtitle1 {
     font-size: 1.875VW;
     font-weight: 500;
     color: #ffffff;
     position: absolute;
-    right: 160vw;
+    right: -37vw;
     top: 28VW;
     z-index: 35;
-    opacity: 0;
-    white-space: nowrap;
+    text-align: right;
 }
 
-.ppt4-subtitle2 {
+/* .ppt4-subtitle2 {
     font-size: 1.875VW;
     font-weight: 500;
     color: #ffffff;
@@ -777,7 +786,7 @@ body::-webkit-scrollbar{
     z-index: 35;
     opacity: 0;
     white-space: nowrap;
-}
+} */
 
 .ppt4-button {
     width: 12.291666666666666VW;
@@ -790,8 +799,8 @@ body::-webkit-scrollbar{
     font-size: 1.5625VW;
     font-weight: 500;
     position: absolute;
-    right: 100vw;
-    top: 28VW;
+    right: 5.5VW;
+    top: 100%;
     z-index: 35;
     opacity: 0;
     text-decoration: none;
@@ -815,15 +824,15 @@ body::-webkit-scrollbar{
     font-size: 2.864583333333333VW;
     font-weight: 700;
     position: absolute;
-    right: 100%;
-    top: 25%;
+    right: -30vw;
+    top: 16.6VW;
     z-index: 45;
+    text-align: right;
     line-height: 3.2vw;
     opacity: 0;
-    white-space: nowrap;
 }
 
-.ppt5-title2 {
+/* .ppt5-title2 {
     color: #ffffff;
     font-size: 2.864583333333333VW;
     font-weight: 700;
@@ -834,7 +843,7 @@ body::-webkit-scrollbar{
     line-height: 3.2vw;
     opacity: 0;
     white-space: nowrap;
-}
+} */
 
 
 .ppt5-subtitle1 {
@@ -842,14 +851,13 @@ body::-webkit-scrollbar{
     font-weight: 500;
     color: #ffffff;
     position: absolute;
-    right: 120%;
-    top: 35%;
+    right: -38vw;
+    top: 26VW;
     z-index: 45;
-    opacity: 0;
-    white-space: nowrap;
+    text-align: right;
 }
 
-.ppt5-subtitle2 {
+/* .ppt5-subtitle2 {
     font-size: 1.875VW;
     font-weight: 500;
     color: #ffffff;
@@ -859,7 +867,7 @@ body::-webkit-scrollbar{
     z-index: 45;
     opacity: 0;
     white-space: nowrap;
-}
+} */
 
 .ppt5-button {
     width: 12.291666666666666VW;
@@ -872,8 +880,8 @@ body::-webkit-scrollbar{
     font-size: 1.5625VW;
     font-weight: 500;
     position: absolute;
-    right: 110%;
-    top: 42%;
+    right: 5.5VW;
+    top: 100%;
     z-index: 45;
     opacity: 0;
     text-decoration: none;
@@ -897,15 +905,15 @@ body::-webkit-scrollbar{
     font-size: 2.864583333333333VW;
     font-weight: 700;
     position: absolute;
-    right: 5.5vw;
-    top: -12VW;
+    right: -28vw;
+    top: 15VW;
     z-index: 55;
+    text-align: right;
     line-height: 3.2vw;
-    white-space: nowrap;
     opacity: 0;
 }
 
-.ppt6-title2 {
+/* .ppt6-title2 {
     color: #ffffff;
     font-size: 2.864583333333333VW;
     font-weight: 700;
@@ -916,7 +924,7 @@ body::-webkit-scrollbar{
     line-height: 3.2vw;
     white-space: nowrap;
     opacity: 0;
-}
+} */
 
 
 .ppt6-subtitle1 {
@@ -924,14 +932,13 @@ body::-webkit-scrollbar{
     font-weight: 500;
     color: #ffffff;
     position: absolute;
-    right: 5.5vw;
-    top: -12vw;
+    right: -28vw;
+    top: 22VW;
     z-index: 55;
-    white-space: nowrap;
-    opacity: 0;
+    text-align: right;
 }
 
-.ppt6-subtitle2 {
+/* .ppt6-subtitle2 {
     font-size: 1.875VW;
     font-weight: 500;
     color: #ffffff;
@@ -965,7 +972,7 @@ body::-webkit-scrollbar{
     z-index: 55;
     white-space: nowrap;
     opacity: 0;
-}
+} */
 
 .ppt6-button1 {
     width: 12.291666666666666VW;
@@ -978,8 +985,8 @@ body::-webkit-scrollbar{
     font-size: 1.5625VW;
     font-weight: 500;
     position: absolute;
-    right: 5.5vw;
-    top: -12vw;
+    right: -25vw;
+    top: 33vw;
     z-index: 55;
     text-decoration: none;
     opacity: 0;
@@ -1003,7 +1010,7 @@ body::-webkit-scrollbar{
     font-weight: 700;
     position: absolute;
     right: 5.5vw;
-    top: -12vw;
+    top: 100%;
     z-index: 55;
     text-decoration: none;
     border-radius: 1vw;
@@ -1241,6 +1248,7 @@ body::-webkit-scrollbar{
 
 .ppt2-background-trigger {
     height: 100vh;
+    padding-top: 34vh;
 }
 
 .ppt2-backgroundafter-trigger {
@@ -1251,6 +1259,7 @@ body::-webkit-scrollbar{
 
 .ppt3-background-trigger {
     height: 100vh;
+    padding-top: 34vh;
 }
 
 .ppt3-backgroundafter-trigger {
@@ -1262,6 +1271,7 @@ body::-webkit-scrollbar{
 
 .ppt4-background-trigger {
     height: 100vh;
+    padding-top: 34vh;
 }
 
 .ppt4-backgroundafter-trigger {
@@ -1271,6 +1281,7 @@ body::-webkit-scrollbar{
 
 .ppt5-background-trigger {
     height: 100vh;
+    padding-top: 34vh;
 }
 
 .ppt5-backgroundafter-trigger {
@@ -1287,4 +1298,8 @@ body::-webkit-scrollbar{
 
 .footer-trigger{
     height: 100vh;
+}
+
+.ppt2-sidebar-target{
+    
 }
