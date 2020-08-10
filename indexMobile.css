@@ -1,0 +1,560 @@
+@import "./fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Campton Black";
+    scroll-behavior: smooth;
+}
+
+body{
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    height: 8.51851851851852vh;
+    background-image: url("./images/mobile/heder.png");
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+.showroom-container {
+    width: 100%;
+    height: 91.48148148148148vh;
+    overflow: hidden;
+    position: fixed;
+    top: 8.51851851851852vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.showroom-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.ppt1-video-desktop {
+    display: none
+}
+
+.ppt1-video-mobile {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.ppt1-scroll-arrows {
+    width: 12.222222222222221VW;
+    height: 14.351851851851851VW;
+    background-image: url("./images/scroll.png");
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    left: 43.888888888888886VW;
+    bottom: 6.851851851851852VW;
+    animation: scrollArrows 1s infinite;
+    z-index: 10;
+}
+
+@keyframes scrollArrows {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0.33;
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+/*    ---------------------------        SCREENS      ---------------------------------------  */
+/*    ---------------------------        SCREENS      ---------------------------------------  */
+/*    ---------------------------        SCREENS      ---------------------------------------  */
+.ppt2-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/mobile/serije.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 10;
+}
+.ppt2-background:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./images/mobile/serijeRed.png");
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1
+}
+
+.ppt3-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/televizija.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 20;
+}
+
+.ppt3-background:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./images/televizijaBlue.png");
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1
+}
+
+.ppt4-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/mobile/calling.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 30;
+}
+
+.ppt4-background:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./images/mobile/callingRed.png");
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1
+}
+
+
+.ppt5-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/homephone.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 40;
+}
+
+.ppt5-background:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./images/homephoneBlue.png");
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1
+}
+
+.ppt6-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/mobile/topponuda.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 50;
+    
+}
+
+.ppt6-background:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./images/mobile/topponudaRed.png");
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1
+}
+
+.footerikonice-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/mobile/footerikonice.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 400;
+}
+.footerBlue-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./images/mobile/footerBlue.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 401;
+}
+
+
+
+
+
+
+
+
+/*    ---------------------------        SNAKES      ---------------------------------------  */
+/*    ---------------------------        SNAKES      ---------------------------------------  */
+/*    ---------------------------        SNAKES      ---------------------------------------  */
+
+
+
+
+/*  ---------------------------        TITLES      ---------------------------------------  */
+/*  ---------------------------        TITLES      ---------------------------------------  */
+/*  ---------------------------        TITLES      ---------------------------------------  */
+.ppt1-title1 {
+    color: #ffffff;
+    font-size: 11.11111111111111VW;
+    font-weight: 700;
+    position: absolute;
+    left: 2.7777777777777777VW;
+    bottom: 48VW;
+    z-index: 5;
+    opacity: 1;
+}
+.ppt1-title2 {
+    color: #ffffff;
+    font-size: 11.11111111111111VW;
+    font-weight: 700;
+    position: absolute;
+    left: 2.7777777777777777VW;
+    bottom: 34VW;
+    z-index: 15;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ---------------------------        SIDEBAR      ---------------------------------------  */
+/*  ---------------------------        SIDEBAR      ---------------------------------------  */
+/*  ---------------------------        SIDEBAR      ---------------------------------------  */
+.sidebar-container {
+    width: 86.11111111111111VW;
+    height: 20.185185185185187VW;
+    position: absolute;
+    left: 1.9444444444444444VW;
+    bottom: 0;
+    z-index: 300;
+    overflow: hidden;
+}
+
+.sidebar-marker {
+    width: 20%;
+    height: 100%;
+    background-color: #ff1b2a;
+    position: relative;
+    left: -20.2%;
+}
+
+
+/*  ---------------------------        SIDEBAR - SERIJE      ---------------------------------------  */
+.sidebar-serije-wrapper {
+    width: 17.22222222222222VW;
+    height: 20.185185185185187VW;
+    position: absolute;
+    left: 1.9444444444444444VW;
+    bottom: 0;
+    z-index: 301;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.sidebar-serije-left {
+    width: 0;
+    height: 100%;
+}
+
+.sidebar-serije {
+    width: 9.907407407407408VW;
+    height: 12.037037037037036VW;
+    background-image: url("./images/sidebarserije.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+    position: absolute;
+    bottom:4.62962962962963VW;
+}
+
+
+.sidebar-serije-wrapper:hover>.sidebar-serije {
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*  ---------------------------        SIDEBAR - TELEVIZIJA      ---------------------------------------  */
+.sidebar-televizija-wrapper {
+    width: 17.22222222222222VW;
+    height: 20.185185185185187VW;
+    position: absolute;
+    left: 19VW;
+    bottom: 0;
+    z-index: 301;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.sidebar-televizija-left {
+    width: 0;
+    height: 100%;
+}
+
+.sidebar-televizija {
+    width: 13.240740740740742VW;
+    height: 12.407407407407407VW;
+    background-image: url("./images/sidebartelevizija.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+    position: absolute;
+    bottom:4.62962962962963VW;
+}
+
+
+.sidebar-televizija-wrapper:hover>.sidebar-televizija {
+    transform: scale(1.1);
+}
+
+
+
+/*  ---------------------------        SIDEBAR - CALLING      ---------------------------------------  */
+.sidebar-calling-wrapper {
+    width: 17.22222222222222VW;
+    height: 20.185185185185187VW;
+    position: absolute;
+    left: 36.2VW;
+    bottom: 0;
+    z-index: 301;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.sidebar-calling-left {
+    width: 0;
+    height: 100%;
+}
+
+.sidebar-calling {
+    width: 10.185185185185185VW;
+    height: 13.796296296296296VW;
+    background-image: url("./images/sidebarcalling.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+    position: absolute;
+    bottom:4.62962962962963VW;
+}
+
+
+.sidebar-calling-wrapper:hover>.sidebar-calling {
+    transform: scale(1.1);
+}
+
+
+
+
+/*  ---------------------------        SIDEBAR - HOMEPHONE      ---------------------------------------  */
+.sidebar-homephone-wrapper {
+    width: 17.22222222222222VW;
+    height: 20.185185185185187VW;
+    position: absolute;
+    left: 53.5VW;
+    bottom: 0;
+    z-index: 301;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.sidebar-homephone-left {
+    width: 0;
+    height: 100%;
+}
+
+.sidebar-homephone {
+    width: 14.907407407407408VW;
+    height: 13.148148148148147VW;
+    background-image: url("./images/sidebarhomephone.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+    position: absolute;
+    bottom:4.62962962962963VW;
+}
+
+
+.sidebar-homephone-wrapper:hover>.sidebar-homephone {
+    transform: scale(1.1);
+}
+
+
+
+/*  ---------------------------        SIDEBAR - TOPPONUDA      ---------------------------------------  */
+.sidebar-topponuda-wrapper {
+    width: 17.22222222222222VW;
+    height: 20.185185185185187VW;
+    position: absolute;
+    left: 70.7VW;
+    bottom: 0;
+    z-index: 301;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.sidebar-topponuda-left {
+    width: 0;
+    height: 100%;
+}
+
+.sidebar-topponuda {
+    width: 15.277777777777779VW;
+    height: 13.148148148148147VW;
+    background-image: url("./images/sidebartopponuda.png");
+    background-size: 100% 100%;
+    transition: transform 0.2s;
+    position: absolute;
+    bottom:4.62962962962963VW;
+}
+
+.sidebar-topponuda-wrapper:hover>.sidebar-topponuda {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ---------------------------        TRIGGERS      ---------------------------------------  */
+/*  ---------------------------        TRIGGERS      ---------------------------------------  */
+/*  ---------------------------        TRIGGERS      ---------------------------------------  */
+
+
+
+.break-zone {
+    height: 42vh;
+}
+
+.ppt1-initial-trigger {
+    margin-top: 100vh;
+    height: 20vh;
+}
+
+
+
+.ppt2-background-trigger {
+    height: 100vh;
+    padding-top: 34vh;
+}
+
+.ppt2-backgroundafter-trigger {
+    height: 40vh;
+}
+
+
+
+.ppt3-background-trigger {
+    height: 100vh;
+    padding-top: 34vh;
+}
+
+.ppt3-backgroundafter-trigger {
+    height: 40vh;
+}
+
+
+
+
+.ppt4-background-trigger {
+    height: 100vh;
+    padding-top: 34vh;
+}
+
+.ppt4-backgroundafter-trigger {
+    height: 40vh;
+}
+
+
+.ppt5-background-trigger {
+    height: 100vh;
+    padding-top: 34vh;
+}
+
+.ppt5-backgroundafter-trigger {
+    height: 40vh;
+}
+
+.ppt6-background-trigger {
+    height: 100vh;
+}
+
+.ppt6-backgroundafter-trigger {
+    height: 40vh;
+}
+
+.footer-trigger {
+    height: 100vh;
+}

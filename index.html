@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTEL - Tvoj svet bez granica</title>
     <link rel="shortcut icon" href="/images/titlebarLogo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./index.css">
+
+    <link rel="stylesheet" media="screen and (orientation: landscape)" href="./indexDesktop.css" />
+    <link rel="stylesheet" media="screen and (orientation: portrait)" href="./indexMobile.css" />
+
+    <!-- <link rel="stylesheet" href="./index.css"> -->
 </head>
 
 <body>
@@ -21,13 +25,16 @@
         <div class="showroom-wrapper">
 
 
-            
+
             <!-- ---------------------------        SCREENS      --------------------------------------- -->
             <!-- ---------------------------        SCREENS      --------------------------------------- -->
             <!-- ---------------------------        SCREENS      --------------------------------------- -->
 
-            <video class="ppt1-video" poster="./images/video-naslovna-poster.png" playsinline muted autoplay loop>
+            <video class="ppt1-video-desktop" poster="./images/video-naslovna-poster.png" playsinline muted autoplay loop>
                 <source src="./images/video-home.mp4" type="video/mp4">
+            </video>
+            <video class="ppt1-video-mobile" poster="./images/mobile/videoposter.png" playsinline muted autoplay loop>
+                <source src="./images/mobile/mtel mobile video.mp4" type="video/mp4">
             </video>
 
             <div class="ppt1-scroll-arrows">
@@ -364,7 +371,7 @@
 
 
 
-<!-- 
+            <!-- 
             <div class="ppt5-title1">
                 ZOVI SA FIKSONG
             </div>
@@ -489,7 +496,7 @@
     </div>
     <div class="ppt2-background-trigger">
         <div class="ppt2-sidebar-target">
-            
+
         </div>
     </div>
     <div class="ppt2-backgroundafter-trigger">
@@ -502,7 +509,7 @@
 
     <div class="ppt3-background-trigger">
         <div class="ppt3-sidebar-target">
-            
+
         </div>
     </div>
     <div class="ppt3-backgroundafter-trigger">
@@ -515,7 +522,7 @@
     </div>
     <div class="ppt4-background-trigger">
         <div class="ppt4-sidebar-target">
-            
+
         </div>
     </div>
     <div class="ppt4-backgroundafter-trigger">
@@ -527,7 +534,7 @@
     </div>
     <div class="ppt5-background-trigger">
         <div class="ppt5-sidebar-target">
-            
+
         </div>
     </div>
     <div class="ppt5-backgroundafter-trigger">
@@ -566,6 +573,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/CSSRulePlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollToPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/TextPlugin.min.js"></script>
+
+    <!-- <script>
+           if (window.innerWidth >= 992){
+               console.log("DESKTOPP")
+               self.importScripts("./indexDesktop.js")
+           } else {
+            console.log("mobileeee")
+           }
+
+    </script> -->
     <script src="./index.js"></script>
 </body>
 
