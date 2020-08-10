@@ -853,4 +853,20 @@ $(document).ready(function () {
         });
     });
 
+
+
+    $(".header").click(function () {
+        $(".heder-menu").addClass("show-menu")
+        $(".heder-menu").removeClass("hide-menu")
+    });
+
+    $(".heder-menu").click(function () {
+        $(".heder-menu").addClass("hide-menu")
+        $(".heder-menu").removeClass("show-menu")
+    });
+
+
+
+
+
 })

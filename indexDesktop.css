@@ -24,6 +24,10 @@ body::-webkit-scrollbar {
 }
 
 
+.heder-menu{
+    display: none;
+}
+
 .showroom-container {
     width: 100%;
     height: 90vh;
