@@ -140,7 +140,7 @@ $(document).ready(function () {
             toggleActions: "play pause resume reset",
             trigger: ".footer-trigger",
             start: "top bottom",
-            end: "top 60%",
+            end: "top 50%",
             scrub: 1
         },
         bottom: "0"
@@ -168,6 +168,217 @@ $(document).ready(function () {
     /*    ---------------------------        SNAKES      ---------------------------------------  */
     /*    ---------------------------        SNAKES      ---------------------------------------  */
     /*    ---------------------------        SNAKES      ---------------------------------------  */
+
+    gsap.to(".snake-red-1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt1-initial-trigger",
+            start: "top bottom",
+            endTrigger: ".ppt2-background-trigger",
+            end: "bottom 50%",
+            scrub: 1,
+
+        },
+        right: "64%"
+    })
+
+
+    gsap.to(".snake-blue-1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt2-background-trigger",
+            start: "top bottom",
+            end: "bottom bottom",
+            scrub: 1,
+
+        },
+        top: "100%"
+    })
+
+    gsap.to(".snake-red-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt2-background-trigger",
+            start: "top 30%",
+            endTrigger: ".ppt3-background-trigger",
+            end: "top bottom",
+            scrub: 1,
+
+        },
+        top: "100%"
+    })
+
+
+    gsap.to(".snake-blue-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt2-backgroundafter-trigger",
+            start: "top 50%",
+            endTrigger: ".ppt3-backgroundafter-trigger",
+            end: "top bottom",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+    gsap.to(".snake-red-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt3-background-trigger",
+            start: "top 20%",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+    gsap.to(".whitesnake-1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt3-background-trigger",
+            start: "top top",
+            scrub: 1,
+
+        },
+        left: "100%"
+    })
+
+    gsap.to(".snake-blue-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt3-backgroundafter-trigger",
+            start: "top bottom",
+            endTrigger: ".ppt4-background-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        right: "100%"
+    })
+
+    gsap.to(".snake-blue-4", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-background-trigger",
+            start: "top 80%",
+            endTrigger: ".ppt5-background-trigger",
+            end: "top 70%",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+
+    gsap.to(".snake-red-4", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-background-trigger",
+            start: "top 80%",
+            endTrigger: ".ppt6-backgroundafter-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        left: "100%"
+    })
+
+    gsap.to(".whitesnake-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-backgroundafter-trigger",
+            start: "top bottom",
+            endTrigger: ".ppt6-backgroundafter-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        top: "100%"
+    })
+
+    gsap.to(".snake-blue-5", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-background-trigger",
+            start: "top 50%",
+            endTrigger: ".ppt6-backgroundafter-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        right: "100%"
+    })
+
+    gsap.to(".snake-red-5", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-backgroundafter-trigger",
+            start: "top 90%",
+            endTrigger: ".ppt6-backgroundafter-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+    gsap.to(".snake-red-6", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-backgroundafter-trigger",
+            start: "top 40%",
+            endTrigger: ".ppt6-background-trigger",
+            end: "top 75%",
+            scrub: 1,
+
+        },
+        top: "100%"
+    })
+
+    gsap.to(".whitesnake-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-background-trigger",
+            start: "top 80%",
+            endTrigger: ".footer-trigger",
+            end: "top bottom",
+            scrub: 1,
+
+        },
+        right: "100%"
+    })
+
+    gsap.to(".snake-blue-6", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-background-trigger",
+            start: "top top",
+            endTrigger: ".footer-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        bottom: "100%"
+    })
+
+    gsap.to(".snake-red-7", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-background-trigger",
+            start: "top 20%",
+            endTrigger: ".footer-trigger",
+            end: "top top",
+            scrub: 1,
+
+        },
+        top: "100%"
+    })
+
+
+
+    // ------------------------------------ WHITESNAKE ------------------------------------
+
     gsap.to(".snake-white-1", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
@@ -286,12 +497,6 @@ $(document).ready(function () {
         left: "5vw"
     })
 
-
-
-
-
-
-    // ------------------------------------ WHITESNAKE ------------------------------------
 
 
 
