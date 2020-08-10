@@ -585,9 +585,11 @@ body::-webkit-scrollbar {
     opacity: 0;
 }
 
+.ppt2-title-mobile {
+    display: none;
+}
 
-
-.ppt2-title {
+.ppt2-title-desktop {
     color: #ffffff;
     font-size: 2.864583333333333VW;
     font-weight: 700;
@@ -600,7 +602,11 @@ body::-webkit-scrollbar {
     opacity: 0;
 }
 
-.ppt2-subtitle {
+.ppt2-subtitle-mobile {
+    display: none;
+}
+
+.ppt2-subtitle-desktop {
     font-size: 1.875VW;
     font-weight: 500;
     color: #ffffff;
@@ -731,9 +737,11 @@ body::-webkit-scrollbar {
 
 
 
+.ppt4-title1-mobile {
+    display: none;
+}
 
-
-.ppt4-title1 {
+.ppt4-title1-desktop {
     color: #ffffff;
     font-size: 2.864583333333333VW;
     font-weight: 700;
@@ -933,8 +941,11 @@ body::-webkit-scrollbar {
     opacity: 0;
 } */
 
+.ppt6-subtitle1-mobile {
+    display: none;
+}
 
-.ppt6-subtitle1 {
+.ppt6-subtitle1-desktop {
     font-size: 1.875VW;
     font-weight: 500;
     color: #ffffff;
