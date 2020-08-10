@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
     gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(CSSRulePlugin);
 
 
     /*    ---------------------------        SCREENS      ---------------------------------------  */
@@ -19,7 +20,7 @@ $(document).ready(function () {
     })
 
 
-    var ppt2after = CSSRulePlugin.getRule(".ppt2-background:after"); //get the rule
+    var ppt2after = CSSRulePlugin.getRule(".ppt2-background::after"); //get the rule
     gsap.to(ppt2after, {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
@@ -46,7 +47,7 @@ $(document).ready(function () {
     })
 
 
-    var ppt3after = CSSRulePlugin.getRule(".ppt3-background:after"); //get the rule
+    var ppt3after = CSSRulePlugin.getRule(".ppt3-background::after"); //get the rule
     gsap.to(ppt3after, {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
@@ -72,7 +73,7 @@ $(document).ready(function () {
     })
 
 
-    var ppt4after = CSSRulePlugin.getRule(".ppt4-background:after"); //get the rule
+    var ppt4after = CSSRulePlugin.getRule(".ppt4-background::after"); //get the rule
     gsap.to(ppt4after, {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
@@ -99,7 +100,7 @@ $(document).ready(function () {
     })
 
 
-    var ppt5after = CSSRulePlugin.getRule(".ppt5-background:after"); //get the rule
+    var ppt5after = CSSRulePlugin.getRule(".ppt5-background::after"); //get the rule
     gsap.to(ppt5after, {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
@@ -125,7 +126,7 @@ $(document).ready(function () {
     })
 
 
-    var ppt6after = CSSRulePlugin.getRule(".ppt6-background:after"); //get the rule
+    var ppt6after = CSSRulePlugin.getRule(".ppt6-background::after"); //get the rule
     gsap.to(ppt6after, {
         scrollTrigger: {
             toggleActions: "play pause resume reset",

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     gsap.registerPlugin(ScrollTrigger);
-
+    gsap.registerPlugin(CSSRulePlugin);
     /*    ---------------------------        SCREENS      ---------------------------------------  */
     /*    ---------------------------        SCREENS      ---------------------------------------  */
     /*    ---------------------------        SCREENS      ---------------------------------------  */
@@ -168,6 +168,123 @@ $(document).ready(function () {
     /*    ---------------------------        SNAKES      ---------------------------------------  */
     /*    ---------------------------        SNAKES      ---------------------------------------  */
     /*    ---------------------------        SNAKES      ---------------------------------------  */
+    gsap.to(".snake-white-1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt1-initial-trigger",
+            start: "top bottom",
+            endTrigger: ".ppt2-background-trigger",
+            end: "bottom 100%",
+            scrub: 1,
+
+        },
+        left: "58.05555555555556VW"
+    })
+
+    gsap.to(".snake-whiteTitle-1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt1-initial-trigger",
+            start: "top bottom",
+            scrub: 1,
+
+        },
+        left: "5.7407407407407405VW"
+    })
+
+
+    gsap.to(".snake-white-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt3-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        left: "36.574074074074076VW"
+    })
+
+    gsap.to(".snake-whiteTitle-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt3-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1,
+
+        },
+        left: "5.833333333333333VW"
+    })
+
+    gsap.to(".snake-white-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        left: "36vw"
+    })
+
+    gsap.to(".snake-whiteTitle-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt4-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1,
+
+        },
+        left: "17.70377vw"
+    })
+
+    
+    gsap.to(".snake-white-4", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        left: "28.98148148148148vw"
+    })
+
+    gsap.to(".snake-whiteTitle-4", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt5-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1,
+
+        },
+        left: "6.6VW"
+    })
+
+    gsap.to(".snake-white-5", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1
+        },
+        left: "28.98148148148148vw"
+    })
+
+    gsap.to(".snake-whiteTitle-5", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".ppt6-background-trigger",
+            start: "top bottom",
+            end: "bottom 100%",
+            scrub: 1,
+
+        },
+        left: "5vw"
+    })
 
 
 

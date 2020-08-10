@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
     z-index: 10;
 }
 
-.ppt2-background:after {
+.ppt2-background::after {
     content: "";
     position: absolute;
     top: 0%;
@@ -120,7 +120,7 @@ body::-webkit-scrollbar {
     z-index: 20;
 }
 
-.ppt3-background:after {
+.ppt3-background::after {
     content: "";
     position: absolute;
     top: 0%;
@@ -145,7 +145,7 @@ body::-webkit-scrollbar {
     z-index: 30;
 }
 
-.ppt4-background:after {
+.ppt4-background::after {
     content: "";
     position: absolute;
     top: 0%;
@@ -170,7 +170,7 @@ body::-webkit-scrollbar {
     z-index: 40;
 }
 
-.ppt5-background:after {
+.ppt5-background::after {
     content: "";
     position: absolute;
     top: 0%;
@@ -195,7 +195,7 @@ body::-webkit-scrollbar {
     z-index: 50;
 }
 
-.ppt6-background:after {
+.ppt6-background::after {
     content: "";
     position: absolute;
     top: 0%;
