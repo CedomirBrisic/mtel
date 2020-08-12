@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $(window).scrollTop(0);
     gsap.registerPlugin(ScrollTrigger);
     gsap.registerPlugin(CSSRulePlugin);
     /*    ---------------------------        SCREENS      ---------------------------------------  */
@@ -179,7 +180,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        right: "64%"
+        right: "64%",
+        // opacity: 0
     })
 
 
@@ -192,7 +194,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        top: "100%"
+        top: "100%",
+        // opacity: 0
     })
 
     gsap.to(".snake-red-2", {
@@ -205,7 +208,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        top: "100%"
+        top: "100%",
+        // opacity: 0
     })
 
 
@@ -219,7 +223,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        bottom: "100%"
+        bottom: "100%",
+        // opacity: 0
     })
 
     gsap.to(".snake-red-3", {
@@ -230,7 +235,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        bottom: "100%"
+        bottom: "100%",
+        // opacity: 0
     })
 
     gsap.to(".whitesnake-1", {
@@ -241,7 +247,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        left: "100%"
+        left: "100%",
+        // opacity: 0
     })
 
     gsap.to(".snake-blue-3", {
@@ -254,7 +261,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        right: "100%"
+        right: "100%",
+        // opacity: 0
     })
 
     gsap.to(".snake-blue-4", {
@@ -267,7 +275,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        bottom: "100%"
+        bottom: "100%",
+        // opacity: 0
     })
 
 
@@ -281,7 +290,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        left: "100%"
+        left: "100%",
+        // opacity: 0
     })
 
     gsap.to(".whitesnake-2", {
@@ -294,7 +304,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        top: "100%"
+        top: "100%",
+        // opacity: 0
     })
 
     gsap.to(".snake-blue-5", {
@@ -307,7 +318,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        right: "100%"
+        right: "100%",
+        // opacity: 0
     })
 
     gsap.to(".snake-red-5", {
@@ -320,7 +332,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        bottom: "100%"
+        bottom: "100%",
+        // opacity: 0
     })
 
     gsap.to(".snake-red-6", {
@@ -333,7 +346,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        top: "100%"
+        top: "100%",
+        // opacity: 0
     })
 
     gsap.to(".whitesnake-3", {
@@ -346,7 +360,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        right: "100%"
+        right: "100%",
+        // opacity: 0
     })
 
     gsap.to(".snake-blue-6", {
@@ -359,7 +374,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        bottom: "100%"
+        bottom: "100%",
+        // opacity: 0
     })
 
     gsap.to(".snake-red-7", {
@@ -372,7 +388,8 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        top: "100%"
+        top: "100%",
+        // opacity: 0
     })
 
 
@@ -507,36 +524,46 @@ $(document).ready(function () {
     /*  ---------------------------        TITLES      ---------------------------------------  */
     /*  ---------------------------        TITLES      ---------------------------------------  */
     /*  ---------------------------        TITLES      ---------------------------------------  */
-    gsap.to(".ppt1-title1", {
+    // gsap.to(".ppt1-title1", {
+    //     scrollTrigger: {
+    //         toggleActions: "play pause resume reset",
+    //         trigger: ".ppt1-initial-trigger",
+    //         start: "top bottom",
+    //         end: "top 90%",
+    //         // endTrigger: ".ppt2-background-trigger",
+    //         // end: "bottom 100%",
+    //         scrub: 1,
+
+    //     },
+    //     opacity: 1
+    // })
+
+    // const ppt1Title2Tl = gsap.timeline();
+    // ppt1Title2Tl.to(".ppt1-title2", {
+    //     opacity: 1
+    // }).to(".ppt1-title2", {
+    //     opacity: 0
+    // })
+
+    // ScrollTrigger.create({
+    //     toggleActions: "play pause resume reset",
+    //     animation: ppt1Title2Tl,
+    //     trigger: ".ppt1-initial-trigger",
+    //     start: "top bottom",
+    //     end: "top 10%",
+    //     scrub: 1
+    // })
+
+    gsap.to(".ppt1-title2", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt1-initial-trigger",
-            start: "top bottom",
-            end: "top 90%",
-            // endTrigger: ".ppt2-background-trigger",
-            // end: "bottom 100%",
+            start: "top 70%",
+            end: "top 10%",
             scrub: 1,
-
         },
-        opacity: 1
-    })
-
-    const ppt1Title2Tl = gsap.timeline();
-    ppt1Title2Tl.to(".ppt1-title2", {
-        opacity: 1
-    }).to(".ppt1-title2", {
         opacity: 0
     })
-
-    ScrollTrigger.create({
-        toggleActions: "play pause resume reset",
-        animation: ppt1Title2Tl,
-        trigger: ".ppt1-initial-trigger",
-        start: "top bottom",
-        end: "top 10%",
-        scrub: 1
-    })
-
 
 
 

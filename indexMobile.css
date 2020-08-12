@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 
 .header {
     width: 100%;
-    height: 4.75vh;
+    height: 8.5vw;
     background-image: url("./images/mobile/heder.png");
     background-size: 100% 100%;
     position: fixed;
@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
     height: 95.25vh;
     overflow: hidden;
     position: fixed;
-    top: 4.75vh;
+    top: 8.5vw;
     bottom: 0;
     left: 0;
     right: 0;
@@ -391,7 +391,7 @@ body::-webkit-scrollbar {
     height: 45VW;
     background-color: #ff1b2a;
     position: absolute;
-    right: 5VW;
+    right: 3VW;
     top: -46VW;
     z-index: 11;
 }
@@ -452,7 +452,7 @@ body::-webkit-scrollbar {
     background-color: #ff1b2a;
     position: absolute;
     left: -46vw;
-    top: 42vw;
+    top: 93vw;
     z-index: 31;
 }
 
@@ -481,7 +481,7 @@ body::-webkit-scrollbar {
     height: 48VW;
     background-color: #ff1b2a;
     position: absolute;
-    right: 7.5VW;
+    right: 0VW;
     bottom: -50vw;
     z-index: 43;
 }
@@ -545,7 +545,7 @@ body::-webkit-scrollbar {
     left: 2.7777777777777777VW;
     bottom: 48VW;
     z-index: 5;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .ppt1-title2 {
@@ -556,7 +556,7 @@ body::-webkit-scrollbar {
     left: 2.7777777777777777VW;
     bottom: 34VW;
     z-index: 15;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    $(window).scrollTop(0);
     gsap.registerPlugin(ScrollTrigger);
     gsap.registerPlugin(CSSRulePlugin);
 
@@ -550,34 +550,45 @@ $(document).ready(function () {
     /*  ---------------------------        TITLES      ---------------------------------------  */
     /*  ---------------------------        TITLES      ---------------------------------------  */
 
-    gsap.to(".ppt1-title1", {
+    // gsap.to(".ppt1-title1", {
+    //     scrollTrigger: {
+    //         toggleActions: "play pause resume reset",
+    //         trigger: ".ppt1-initial-trigger",
+    //         start: "top bottom",
+    //         end: "top 90%",
+    //         // endTrigger: ".ppt2-background-trigger",
+    //         // end: "bottom 100%",
+    //         scrub: 1,
+
+    //     },
+    //     opacity: 1
+    // })
+
+    // const ppt1Title2Tl = gsap.timeline();
+    // ppt1Title2Tl.to(".ppt1-title2", {
+    //     opacity: 1
+    // }).to(".ppt1-title2", {
+    //     opacity: 0
+    // })
+
+    // ScrollTrigger.create({
+    //     toggleActions: "play pause resume reset",
+    //     animation: ppt1Title2Tl,
+    //     trigger: ".ppt1-initial-trigger",
+    //     start: "top bottom",
+    //     end: "top 10%",
+    //     scrub: 1
+    // })
+
+    gsap.to(".ppt1-title2", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt1-initial-trigger",
-            start: "top bottom",
-            end: "top 90%",
-            // endTrigger: ".ppt2-background-trigger",
-            // end: "bottom 100%",
+            start: "top 70%",
+            end: "top 10%",
             scrub: 1,
-
         },
-        opacity: 1
-    })
-
-    const ppt1Title2Tl = gsap.timeline();
-    ppt1Title2Tl.to(".ppt1-title2", {
-        opacity: 1
-    }).to(".ppt1-title2", {
         opacity: 0
-    })
-
-    ScrollTrigger.create({
-        toggleActions: "play pause resume reset",
-        animation: ppt1Title2Tl,
-        trigger: ".ppt1-initial-trigger",
-        start: "top bottom",
-        end: "top 10%",
-        scrub: 1
     })
 
 

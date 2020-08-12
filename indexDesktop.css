@@ -575,7 +575,7 @@ body::-webkit-scrollbar {
     left: 9.79166667VW;
     bottom: 17.15625VW;
     z-index: 5;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .ppt1-title2 {
@@ -586,7 +586,7 @@ body::-webkit-scrollbar {
     left: 9.79166667VW;
     bottom: 11.15625VW;
     z-index: 15;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .ppt2-title-mobile {
