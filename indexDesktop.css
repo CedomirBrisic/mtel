@@ -16,6 +16,9 @@ body::-webkit-scrollbar {
 
 a {
     text-decoration: none;
+}
+
+.center-it {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,6 +130,7 @@ a {
     color: #ffffff;
 
 }
+
 .heder-topbar-title:hover {
     cursor: pointer;
     color: #ff1b2a;
@@ -210,15 +214,18 @@ a {
     cursor: pointer;
     color: #9c060c;
 }
-.user-icon{
+
+.user-icon {
     width: 1.1458333333333333VW;
     height: 1.5104166666666667VW;
 }
-.user-icon>img{
+
+.user-icon>img {
     width: 100%;
     height: 100%;
 }
-.mrgleft{
+
+.mrgleft {
     margin-left: 33vw;
 }
 
@@ -353,26 +360,6 @@ a {
 }
 
 
-
-.footerikonice-container {
-    width: 100%;
-    height: 50%;
-    position: absolute;
-    background-image: url("./images/footerIkonice.png");
-    background-size: 100% 100%;
-    background-position: center;
-    z-index: 400;
-}
-
-.footerBlue-container {
-    width: 100%;
-    height: 50%;
-    position: absolute;
-    background-image: url("./images/footerBlue.png");
-    background-size: 100% 100%;
-    background-position: center;
-    z-index: 400;
-}
 
 
 
@@ -1391,6 +1378,160 @@ a {
 
 
 
+
+
+
+
+/*  ---------------------------        FOOTER      ---------------------------------------  */
+/*  ---------------------------        FOOTER      ---------------------------------------  */
+/*  ---------------------------        FOOTER      ---------------------------------------  */
+
+.footerGray-container {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: 400;
+    background-color: #dcdddf;
+}
+
+.footerGray-wrapper {
+    width: 75.57291666666667VW;
+    height: 14.114583333333334VW;
+    margin: 0 auto;
+    margin-top: 6.354166666666666VW;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-single-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-email-icon {
+    opacity: 0;
+    width: 5.052083333333333VW;
+    height: 3.5937499999999996VW;
+    margin-bottom: 3.3333333333333335VW;
+}
+
+.footerGrey-title {
+    font-size: 1.3541666666666667VW;
+    color: #002741;
+    font-weight: 700;
+    line-height: 1.3541666666666667VW;
+    margin-bottom: 1.6145833333333335VW;
+    opacity: 0;
+}
+
+.footerGrey-subtitle {
+    font-size: 1.1458333333333333VW;
+    line-height: 1.3541666666666667VW;
+    color: #002741;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0;
+}
+
+.red-title {
+    color: #cc2229;
+}
+
+
+.footer-call-icon {
+    opacity: 0;
+    width: 4.947916666666666VW;
+    height: 4.947916666666666VW;
+    margin-bottom: 2.7083333333333335VW;
+}
+
+.footer-socialmedia-icon {
+    opacity: 0;
+    width: 4.583333333333333VW;
+    height: 4.947916666666666VW;
+    margin-bottom: 2.65625VW;
+}
+
+.footer-poslovnice-icon {
+    opacity: 0;
+    width: 3.958333333333333VW;
+    height: 4.791666666666667VW;
+    margin-bottom: 2.7083333333333335VW;
+}
+
+
+
+
+.footerBlue-container {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-image: url("./images/footerBlue.png");
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: 400;
+}
+
+.footerBlue-countries-container {
+    width: 100%;
+    height: 5.1VW;
+    padding: 1.75VW 3.958333333333333VW 1.1979166666666667VW 3.958333333333333VW;
+    position: absolute;
+    top: 0;
+    background-color: #002240;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBlue-countries-left-wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.footer-logo {
+    width: 6.770833333333333VW;
+    height: 1.5104166666666667VW;
+}
+
+.footer-bold-title {
+    font-size: 1.1458333333333333VW;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 1.25VW;
+    align-self: flex-end;
+}
+
+
+.footerBlue-countries-right-wrapper {
+    width: 44.53125VW;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0.5vw;
+}
+
+.footer-countrysite-title {
+    font-size: 1.4583333333333333VW;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer-countrysite-title:hover {
+    cursor: pointer;
+    color: #ff1b2a;
+}
+
+.footer-snake {
+    width: 24%;
+    height: 101%;
+    background-color: #ff1b2a;
+    position: absolute;
+    top: 0;
+    left: -25%;
+
+}
 
 /*  ---------------------------        TRIGGERS      ---------------------------------------  */
 /*  ---------------------------        TRIGGERS      ---------------------------------------  */

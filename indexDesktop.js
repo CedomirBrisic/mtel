@@ -140,7 +140,7 @@ $(document).ready(function () {
 
 
 
-    gsap.to(".footerikonice-container", {
+    gsap.to(".footerGray-container", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".footer-trigger",
@@ -160,6 +160,41 @@ $(document).ready(function () {
             scrub: 1
         },
         bottom: "0"
+    })
+    gsap.to(".footer-snake", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".footer-trigger",
+            start: "top 90%",
+            end: "top top",
+            scrub: 1
+        },
+        left: "100%"
+    })
+
+    const footerSocialIconsTl = gsap.timeline();
+    footerSocialIconsTl.to(".footer-email-icon", {
+        opacity: 1
+    }).to(".footer-call-icon", {
+        opacity: 1
+    }).to(".footer-socialmedia-icon", {
+        opacity: 1
+    }).to(".footer-poslovnice-icon", {
+        opacity: 1
+    }).to(".footerGrey-title", {
+        opacity: 1
+    }).to(".footerGrey-subtitle", {
+        opacity: 1
+    })
+    
+    
+    ScrollTrigger.create({
+        toggleActions: "play pause resume reset",
+        animation: footerSocialIconsTl,
+        trigger: ".footer-trigger",
+        start: "top 95%",
+        end: "top top",
+        scrub: 1
     })
 
 
