@@ -386,8 +386,8 @@ a {
 /*    ---------------------------        SNAKES      ---------------------------------------  */
 /*    ---------------------------        SNAKES      ---------------------------------------  */
 .snake-white-1 {
-    width: 32.447916666666664VW;
-    height: 8.59375VW;
+    width: 32.29166666666667VW;
+    height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
     left: -18.385416666666668VW;
@@ -400,10 +400,10 @@ a {
 
 .snake-whiteTitle-1 {
     color: #ff1b2a;
-    font-size: 5.208333333333334VW;
+    font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
-    left: 94vw;
+    left: 96vw;
     /* right: -100%; */
 }
 
@@ -411,7 +411,7 @@ a {
 
 .snake-white-2 {
     width: 40.729166666666664VW;
-    height: 8.59375VW;
+    height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
     right: -42vw;
@@ -424,7 +424,7 @@ a {
 
 .snake-whiteTitle-2 {
     color: #ff1b2a;
-    font-size: 5.208333333333334VW;
+    font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
     right: 37vw;
@@ -435,7 +435,7 @@ a {
 
 .snake-white-3 {
     width: 35.833333333333336VW;
-    height: 8.59375VW;
+    height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
     right: -36vw;
@@ -449,7 +449,7 @@ a {
 
 .snake-whiteTitle-3 {
     color: #ff1b2a;
-    font-size: 5.208333333333334VW;
+    font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
     right: 29.2vw;
@@ -460,7 +460,7 @@ a {
 
 .snake-white-4 {
     width: 43.958333333333336VW;
-    height: 8.59375VW;
+    height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
     right: -44vw;
@@ -473,7 +473,7 @@ a {
 
 .snake-whiteTitle-4 {
     color: #ff1b2a;
-    font-size: 5.208333333333334VW;
+    font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
     right: 38.8vw;
@@ -482,7 +482,7 @@ a {
 
 .snake-white-5 {
     width: 43.958333333333336VW;
-    height: 8.59375VW;
+    height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
     right: -45VW;
@@ -495,7 +495,7 @@ a {
 
 .snake-whiteTitle-5 {
     color: #ff1b2a;
-    font-size: 5.208333333333334VW;
+    font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
     right: 41VW;
@@ -509,7 +509,7 @@ a {
 
 
 .snake-blue-1 {
-    width: 8.645833333333334VW;
+    width: 5.989583333333334VW;
     height: 25.3125VW;
     background-color: #002240;
     position: absolute;
@@ -520,7 +520,7 @@ a {
 
 .snake-red-1 {
     width: 24VW;
-    height: 8.59375VW;
+    height: 5.989583333333334VW;
     background-color: #ff1b2a;
     position: absolute;
     right: -8vw;
@@ -533,7 +533,7 @@ a {
 
 
 .snake-red-2 {
-    width: 8.59375VW;
+    width: 5.989583333333334VW;
     height: 28.072916666666664VW;
     background-color: #ff1b2a;
     position: absolute;
@@ -543,7 +543,7 @@ a {
 }
 
 .snake-blue-2 {
-    width: 8.59375VW;
+    width: 5.989583333333334VW;
     height: 25.3125VW;
     background-color: #002240;
     position: absolute;
@@ -553,7 +553,7 @@ a {
 }
 
 .snake-red-3 {
-    width: 8.59375VW;
+    width: 5.989583333333334VW;
     height: 28.072916666666664VW;
     background-color: #ff1b2a;
     position: absolute;
@@ -564,17 +564,17 @@ a {
 
 .whitesnake-1 {
     width: 15.104166666666666VW;
-    height: 8.59375VW;
+    height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
     left: -16vw;
-    bottom: -2.3958333333333335VW;
+    bottom: -1vw;
     z-index: 21;
 }
 
 .snake-blue-3 {
     width: 25.3125VW;
-    height: 6.4VW;
+    height: 5.989583333333334VW;
     background-color: #002240;
     position: absolute;
     right: -26vw;
@@ -585,7 +585,7 @@ a {
 
 
 .snake-blue-4 {
-    width: 8.59375VW;
+    width: 5.989583333333334VW;
     height: 25.3125VW;
     background-color: #002240;
     position: absolute;
@@ -597,7 +597,7 @@ a {
 
 .snake-red-4 {
     width: 28.072916666666664VW;
-    height: 8.59375VW;
+    height: 5.989583333333334VW;
     background-color: #ff1b2a;
     position: absolute;
     left: -29vw;
@@ -607,7 +607,7 @@ a {
 
 
 .whitesnake-2 {
-    width: 8.59375VW;
+    width: 5.989583333333334VW;
     height: 25.3125VW;
     background-color: #ffffff;
     position: absolute;
@@ -621,7 +621,7 @@ a {
 
 .snake-blue-5 {
     width: 41.40625VW;
-    height: 7.6VW;
+    height: 5.989583333333334VW;
     background-color: #002240;
     position: absolute;
     right: -42VW;
@@ -630,7 +630,7 @@ a {
 }
 
 .snake-red-5 {
-    width: 8.59375VW;
+    width: 5.989583333333334VW;
     height: 19.739583333333332VW;
     background-color: #ff1b2a;
     position: absolute;
@@ -640,7 +640,7 @@ a {
 }
 
 .snake-red-6 {
-    width: 8.59375VW;
+    width: 5.989583333333334VW;
     height: 19.739583333333332VW;
     background-color: #ff1b2a;
     position: absolute;
@@ -654,16 +654,16 @@ a {
 
 .whitesnake-3 {
     width: 15.677083333333334VW;
-    height: 8.59375VW;
+    height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
     right: -16VW;
-    bottom: -3.5VW;
+    bottom: -1VW;
     z-index: 52;
 }
 
 .snake-blue-6 {
-    width: 8.59375VW;
+    width: 5.989583333333334VW;
     height: 41.40625VW;
     background-color: #002240;
     position: absolute;
@@ -673,7 +673,7 @@ a {
 }
 
 .snake-red-7 {
-    width: 8.59375VW;
+    width: 5.989583333333334VW;
     height: 19.739583333333332VW;
     background-color: #ff1b2a;
     position: absolute;
@@ -698,16 +698,7 @@ a {
 /*  ---------------------------        TITLES      ---------------------------------------  */
 /*  ---------------------------        TITLES      ---------------------------------------  */
 /*  ---------------------------        TITLES      ---------------------------------------  */
-/* .ppt1-title1 {
-    color: #ffffff;
-    font-size: 5.208333333333334VW;
-    font-weight: 700;
-    position: absolute;
-    left: 9.79166667VW;
-    bottom: 17.15625VW;
-    z-index: 5;
 
-} */
 
 .ppt1-title2 {
     color: #ffffff;
@@ -727,13 +718,13 @@ a {
 .ppt2-title-desktop {
     color: #ffffff;
     font-size: 2.34375VW;
+    line-height: 2.8vw;
     font-weight: 700;
     position: absolute;
     right: 5.5VW;
     top: 16.6VW;
     z-index: 15;
     text-align: right;
-    line-height: 3.2vw;
     opacity: 0;
 }
 
@@ -742,25 +733,25 @@ a {
 }
 
 .ppt2-subtitle-desktop {
-    font-size: 1.875VW;
+    font-size: 1.5625VW;
+    line-height: 1.875vw;
     font-weight: 500;
     color: #ffffff;
     position: absolute;
     right: 5.5VW;
-    top: 28VW;
+    top: 27.5VW;
     z-index: 15;
     text-align: right;
 }
 
 .ppt2-button {
-    width: 12.291666666666666VW;
-    height: 3.3854166666666665VW;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     color: #59595b;
     font-size: 1.5625VW;
+    line-height: 1.5625VW;
     font-weight: 500;
     position: absolute;
     right: 5.5VW;
@@ -768,6 +759,7 @@ a {
     z-index: 15;
     opacity: 1;
     text-decoration: none;
+    padding: 0.8854166666666666VW 1.3020833333333335VW;
 }
 
 .ppt2-button:hover {
@@ -783,74 +775,40 @@ a {
 .ppt3-title1 {
     color: #ffffff;
     font-size: 2.34375VW;
+    line-height: 2.8vw;
     font-weight: 700;
     position: absolute;
     right: -33vw;
     top: 16.6VW;
     z-index: 25;
     text-align: right;
-    line-height: 3.2vw;
     opacity: 0;
 }
 
-/* .ppt3-title2 {
-    color: #ffffff;
-    font-size: 2.34375VW;
-    font-weight: 700;
-    position: absolute;
-    z-index: 25;
-    right: 100vw;
-    top: 100vw;
-    line-height: 3.2vw;
-    opacity: 0;
-    white-space: nowrap;
-} */
 
-/* .ppt3-title3 {
-    color: #ffffff;
-    font-size: 2.34375VW;
-    font-weight: 700;
-    position: absolute;
-    z-index: 25;
-    right: 100vw;
-    top: -12vw;
-    line-height: 3.2vw;
-    opacity: 0;
-    white-space: nowrap;
-} */
 
 .ppt3-subtitle1 {
-    font-size: 1.875VW;
+    font-size: 1.5625VW;
+    line-height: 1.875vw;
     font-weight: 500;
     color: #ffffff;
     position: absolute;
     right: -38vw;
-    top: 28VW;
+    top: 27.5VW;
     z-index: 25;
     text-align: right;
 }
 
-/* .ppt3-subtitle2 {
-    font-size: 1.875VW;
-    font-weight: 500;
-    color: #ffffff;
-    position: absolute;
-    right: 21vw;
-    top: 66vw;
-    z-index: 25;
-    opacity: 0;
-    white-space: nowrap;
-} */
+
 
 .ppt3-button {
-    width: 12.291666666666666VW;
-    height: 3.3854166666666665VW;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     color: #59595b;
     font-size: 1.5625VW;
+    line-height: 1.5625VW;
     font-weight: 500;
     position: absolute;
     right: 5.5VW;
@@ -858,6 +816,7 @@ a {
     z-index: 25;
     opacity: 0;
     text-decoration: none;
+    padding: 0.8854166666666666VW 1.3020833333333335VW;
 }
 
 .ppt3-button:hover {
@@ -879,74 +838,38 @@ a {
 .ppt4-title1-desktop {
     color: #ffffff;
     font-size: 2.34375VW;
+    line-height: 2.8vw;
     font-weight: 700;
     position: absolute;
     right: -37vw;
     top: 16.6VW;
     z-index: 35;
     text-align: right;
-    line-height: 3.2vw;
     opacity: 0;
 }
 
-/* .ppt4-title2 {
-    color: #ffffff;
-    font-size: 2.34375VW;
-    font-weight: 700;
-    position: absolute;
-    z-index: 35;
-    right: 100vw;
-    top: 28VW;
-    line-height: 3.2vw;
-    opacity: 0;
-    white-space: nowrap;
-}
-
-.ppt4-title3 {
-    color: #ffffff;
-    font-size: 2.34375VW;
-    font-weight: 700;
-    position: absolute;
-    z-index: 35;
-    right: 100vw;
-    top: 28VW;
-    line-height: 3.2vw;
-    opacity: 0;
-    white-space: nowrap;
-} */
 
 .ppt4-subtitle1 {
-    font-size: 1.875VW;
+    font-size: 1.5625VW;
+    line-height: 1.875vw;
     font-weight: 500;
     color: #ffffff;
     position: absolute;
     right: -37vw;
-    top: 28VW;
+    top: 27.5VW;
     z-index: 35;
     text-align: right;
 }
 
-/* .ppt4-subtitle2 {
-    font-size: 1.875VW;
-    font-weight: 500;
-    color: #ffffff;
-    position: absolute;
-    right: 160vw;
-    top: 28VW;
-    z-index: 35;
-    opacity: 0;
-    white-space: nowrap;
-} */
 
 .ppt4-button {
-    width: 12.291666666666666VW;
-    height: 3.3854166666666665VW;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     color: #59595b;
     font-size: 1.5625VW;
+    line-height: 1.5625VW;
     font-weight: 500;
     position: absolute;
     right: 5.5VW;
@@ -954,6 +877,7 @@ a {
     z-index: 35;
     opacity: 0;
     text-decoration: none;
+    padding: 0.8854166666666666VW 1.3020833333333335VW;
 }
 
 .ppt4-button:hover {
@@ -972,62 +896,41 @@ a {
 .ppt5-title1 {
     color: #ffffff;
     font-size: 2.34375VW;
+    line-height: 2.8vw;
     font-weight: 700;
     position: absolute;
     right: -30vw;
     top: 16.6VW;
     z-index: 45;
     text-align: right;
-    line-height: 3.2vw;
     opacity: 0;
 }
 
-/* .ppt5-title2 {
-    color: #ffffff;
-    font-size: 2.34375VW;
-    font-weight: 700;
-    position: absolute;
-    z-index: 45;
-    right: 100%;
-    top: 65%;
-    line-height: 3.2vw;
-    opacity: 0;
-    white-space: nowrap;
-} */
+
 
 
 .ppt5-subtitle1 {
-    font-size: 1.875VW;
+    font-size: 1.5625VW;
+    line-height: 1.875vw;
     font-weight: 500;
     color: #ffffff;
     position: absolute;
     right: -38vw;
-    top: 26VW;
+    top: 25.5VW;
     z-index: 45;
     text-align: right;
 }
 
-/* .ppt5-subtitle2 {
-    font-size: 1.875VW;
-    font-weight: 500;
-    color: #ffffff;
-    position: absolute;
-    right: 100%;
-    top: 65%;
-    z-index: 45;
-    opacity: 0;
-    white-space: nowrap;
-} */
+
 
 .ppt5-button {
-    width: 12.291666666666666VW;
-    height: 3.3854166666666665VW;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     color: #59595b;
     font-size: 1.5625VW;
+    line-height: 1.5625VW;
     font-weight: 500;
     position: absolute;
     right: 5.5VW;
@@ -1035,6 +938,7 @@ a {
     z-index: 45;
     opacity: 0;
     text-decoration: none;
+    padding: 0.8854166666666666VW 1.3020833333333335VW;
 }
 
 .ppt5-button:hover {
@@ -1053,89 +957,44 @@ a {
 .ppt6-title1 {
     color: #ffffff;
     font-size: 2.34375VW;
+    line-height: 2.8vw;
     font-weight: 700;
     position: absolute;
     right: -28vw;
-    top: 15VW;
+    top: 16.6VW;
     z-index: 55;
     text-align: right;
-    line-height: 3.2vw;
     opacity: 0;
 }
 
-/* .ppt6-title2 {
-    color: #ffffff;
-    font-size: 2.34375VW;
-    font-weight: 700;
-    position: absolute;
-    z-index: 55;
-    right: 5.5vw;
-    top: -12vw;
-    line-height: 3.2vw;
-    white-space: nowrap;
-    opacity: 0;
-} */
+
 
 .ppt6-subtitle1-mobile {
     display: none;
 }
 
 .ppt6-subtitle1-desktop {
-    font-size: 1.875VW;
+    font-size: 1.5625VW;
+    line-height: 1.875vw;
     font-weight: 500;
     color: #ffffff;
     position: absolute;
     right: -28vw;
-    top: 22VW;
+    top: 26VW;
     z-index: 55;
     text-align: right;
 }
 
-/* .ppt6-subtitle2 {
-    font-size: 1.875VW;
-    font-weight: 500;
-    color: #ffffff;
-    position: absolute;
-    right: 5.5vw;
-    top: -12vw;
-    z-index: 55;
-    white-space: nowrap;
-    opacity: 0;
-}
 
-.ppt6-subtitle3 {
-    font-size: 1.875VW;
-    font-weight: 500;
-    color: #ffffff;
-    position: absolute;
-    right: 5.5vw;
-    top: -12vw;
-    z-index: 55;
-    white-space: nowrap;
-    opacity: 0;
-}
-
-.ppt6-subtitle4 {
-    font-size: 1.875VW;
-    font-weight: 500;
-    color: #ffffff;
-    position: absolute;
-    right: 5.5vw;
-    top: -12vw;
-    z-index: 55;
-    white-space: nowrap;
-    opacity: 0;
-} */
 
 .ppt6-button1 {
-    width: 12.291666666666666VW;
-    height: 3.3854166666666665VW;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     color: #59595b;
     font-size: 1.5625VW;
+    line-height: 1.5625VW;
     font-weight: 500;
     position: absolute;
     right: -25vw;
@@ -1143,6 +1002,7 @@ a {
     z-index: 55;
     text-decoration: none;
     opacity: 0;
+    padding: 0.8854166666666666VW 1.3020833333333335VW;
 }
 
 .ppt6-button1:hover {
@@ -1150,33 +1010,6 @@ a {
     background-color: #59595b;
     color: #ffffff;
 }
-
-.ppt6-button2 {
-    width: 12.5VW;
-    height: 5.208333333333334VW;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ff1b2a;
-    color: #ffffff;
-    font-size: 2.2916666666666665VW;
-    font-weight: 700;
-    position: absolute;
-    right: 5.5vw;
-    top: 100%;
-    z-index: 55;
-    text-decoration: none;
-    border-radius: 1vw;
-    opacity: 0;
-}
-
-.ppt6-button2:hover {
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #ff1b2a;
-}
-
-
 
 
 
@@ -1187,8 +1020,8 @@ a {
 /*  ---------------------------        SIDEBAR      ---------------------------------------  */
 /*  ---------------------------        SIDEBAR      ---------------------------------------  */
 .sidebar-container {
-    width: 8.697916666666666VW;
-    height: 27.8125VW;
+    width: 7vw;
+    height: 23.958333333333336VW;
     position: absolute;
     left: 0;
     top: 9.78125VW;
@@ -1207,25 +1040,22 @@ a {
 
 /*  ---------------------------        SIDEBAR - SERIJE      ---------------------------------------  */
 .sidebar-serije-wrapper {
-    width: 8.697916666666666VW;
+    width: 7vw;
     height: 5.5625VW;
     position: absolute;
-    left: -8.697916666666666VW;
+    left: -7vw;
     top: 9.78125VW;
     z-index: 301;
     display: flex;
     align-items: center;
+    justify-content: center;
     opacity: 0;
 }
 
-.sidebar-serije-left {
-    width: 3.4375000000000004VW;
-    height: 100%;
-}
 
 .sidebar-serije {
-    width: 3.177083333333333VW;
-    height: 3.3854166666666665VW;
+    width: 2.8125VW;
+    height: 2.96875VW;
     background-image: url("./images/sidebarserije.png");
     background-size: 100% 100%;
     transition: transform 0.2s;
@@ -1241,25 +1071,22 @@ a {
 
 /*  ---------------------------        SIDEBAR - TELEVIZIJA      ---------------------------------------  */
 .sidebar-televizija-wrapper {
-    width: 8.697916666666666VW;
+    width: 7vw;
     height: 5.5625VW;
     position: absolute;
-    left: -8.697916666666666VW;
+    left: -7vw;
     top: 15.34375VW;
     z-index: 301;
     display: flex;
     align-items: center;
+    justify-content: center;
     opacity: 0;
 }
 
-.sidebar-televizija-left {
-    width: 2.8125VW;
-    height: 100%;
-}
 
 .sidebar-televizija {
-    width: 4.270833333333333VW;
-    height: 3.5416666666666665VW;
+    width: 3.5937499999999996VW;
+    height: 3.177083333333333VW;
     background-image: url("./images/sidebartelevizija.png");
     background-size: 100% 100%;
     transition: transform 0.2s;
@@ -1277,25 +1104,21 @@ a {
 
 /*  ---------------------------        SIDEBAR - CALLING      ---------------------------------------  */
 .sidebar-calling-wrapper {
-    width: 8.697916666666666VW;
+    width: 7vw;
     height: 5.5625VW;
     position: absolute;
-    left: -8.697916666666666VW;
+    left: -7vw;
     top: 20.90625VW;
     z-index: 301;
     display: flex;
     align-items: center;
+    justify-content: center;
     opacity: 0;
 }
 
-.sidebar-calling-left {
-    width: 3.3333333333333335VW;
-    height: 100%;
-}
-
 .sidebar-calling {
-    width: 3.28125VW;
-    height: 4.427083333333334VW;
+    width: 2.8125VW;
+    height: 3.958333333333333VW;
     background-image: url("./images/sidebarcalling.png");
     background-size: 100% 100%;
     transition: transform 0.2s;
@@ -1312,25 +1135,21 @@ a {
 
 /*  ---------------------------        SIDEBAR - HOMEPHONE      ---------------------------------------  */
 .sidebar-homephone-wrapper {
-    width: 8.697916666666666VW;
+    width: 7vw;
     height: 5.5625VW;
     position: absolute;
-    left: -8.697916666666666VW;
+    left: -7vw;
     top: 26.46875VW;
     z-index: 301;
     display: flex;
     align-items: center;
+    justify-content: center;
     opacity: 0;
 }
 
-.sidebar-homephone-left {
-    width: 2.5520833333333335VW;
-    height: 100%;
-}
-
 .sidebar-homephone {
-    width: 4.791666666666667VW;
-    height: 4.166666666666666VW;
+    width: 4.0625VW;
+    height: 3.6979166666666665VW;
     background-image: url("./images/sidebarhomephone.png");
     background-size: 100% 100%;
     transition: transform 0.2s;
@@ -1347,25 +1166,21 @@ a {
 
 /*  ---------------------------        SIDEBAR - TOPPONUDA      ---------------------------------------  */
 .sidebar-topponuda-wrapper {
-    width: 8.697916666666666VW;
+    width: 7vw;
     height: 5.5625VW;
     position: absolute;
-    left: -8.697916666666666VW;
+    left: -7vw;
     top: 32.03125VW;
     z-index: 301;
     display: flex;
     align-items: center;
+    justify-content: center;
     opacity: 0;
 }
 
-.sidebar-topponuda-left {
-    width: 2.5VW;
-    height: 100%;
-}
-
 .sidebar-topponuda {
-    width: 4.947916666666666VW;
-    height: 4.166666666666666VW;
+    width: 4.166666666666666VW;
+    height: 3.6979166666666665VW;
     background-image: url("./images/sidebartopponuda.png");
     background-size: 100% 100%;
     transition: transform 0.2s;
