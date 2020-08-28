@@ -161,16 +161,7 @@ $(document).ready(function () {
         },
         bottom: "0"
     })
-    gsap.to(".footer-snake", {
-        scrollTrigger: {
-            toggleActions: "play pause resume reset",
-            trigger: ".footer-trigger",
-            start: "top 90%",
-            end: "top top",
-            scrub: 1
-        },
-        left: "100%"
-    })
+
 
     const footerSocialIconsTl = gsap.timeline();
     footerSocialIconsTl.to(".footer-email-icon", {
@@ -224,7 +215,7 @@ $(document).ready(function () {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".ppt2-background-trigger",
-            start: "top 70%",
+            start: "top bottom",
             end: "bottom 70%",
             scrub: 1,
 
@@ -437,7 +428,7 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        left: "75.72916666666667VW"
+        left: "77VW"
     })
 
     gsap.to(".snake-whiteTitle-1", {
@@ -462,7 +453,7 @@ $(document).ready(function () {
             end: "bottom 100%",
             scrub: 1
         },
-        right: "-2.2916666666666665VW"
+        left: "70.25VW"
     })
 
     gsap.to(".snake-whiteTitle-2", {
@@ -474,7 +465,7 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        left: "2.7083333333333335VW"
+        left: "3.3854166666666665VW"
     })
 
 
@@ -489,7 +480,7 @@ $(document).ready(function () {
             end: "bottom 100%",
             scrub: 1
         },
-        right: "0vw"
+        left: "73VW"
     })
 
     gsap.to(".snake-whiteTitle-3", {
@@ -501,7 +492,7 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        left: "6.82291vw"
+        left: "5.2VW"
     })
 
 
@@ -516,7 +507,7 @@ $(document).ready(function () {
             end: "bottom 100%",
             scrub: 1
         },
-        right: "-3.03125VW"
+        left: "67.5VW"
     })
 
     gsap.to(".snake-whiteTitle-4", {
@@ -528,7 +519,7 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        left: "2.1875VW"
+        left: "3.125VW"
     })
 
 
@@ -540,7 +531,7 @@ $(document).ready(function () {
             end: "bottom 100%",
             scrub: 1
         },
-        right: "-1.875VW"
+        left: "67VW"
     })
 
     gsap.to(".snake-whiteTitle-5", {
@@ -552,7 +543,7 @@ $(document).ready(function () {
             scrub: 1,
 
         },
-        left: "2VW"
+        left: "3.5416666666666665VW"
     })
 
 

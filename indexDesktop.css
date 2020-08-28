@@ -403,18 +403,18 @@ a {
     font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
-    left: 96vw;
+    left: 100.5vw;
     /* right: -100%; */
 }
 
 
 
 .snake-white-2 {
-    width: 40.729166666666664VW;
+    width: 34.322916666666664VW;
     height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
-    right: -42vw;
+    left: 100%;
     top: 5VW;
     z-index: 102;
     display: flex;
@@ -427,18 +427,18 @@ a {
     font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
-    right: 37vw;
+    left: -26.35vw;
 }
 
 
 
 
 .snake-white-3 {
-    width: 35.833333333333336VW;
+    width: 34.322916666666664VW;
     height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
-    right: -36vw;
+    left: 100%;
     top: 5VW;
     z-index: 103;
     display: flex;
@@ -452,18 +452,18 @@ a {
     font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
-    right: 29.2vw;
+    left: -21.82vw;
 }
 
 
 
 
 .snake-white-4 {
-    width: 43.958333333333336VW;
+    width: 41.5625VW;
     height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
-    right: -44vw;
+    left: 100%;
     top: 5VW;
     z-index: 104;
     display: flex;
@@ -476,16 +476,16 @@ a {
     font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
-    right: 38.8vw;
+    left: -29.45vw;
 }
 
 
 .snake-white-5 {
-    width: 43.958333333333336VW;
+    width: 41.5625VW;
     height: 5.989583333333334VW;
     background-color: #ffffff;
     position: absolute;
-    right: -45VW;
+    left: 100%;
     top: 5VW;
     z-index: 105;
     display: flex;
@@ -498,7 +498,7 @@ a {
     font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: relative;
-    right: 41VW;
+    left: -29.55VW;
 }
 
 
@@ -699,13 +699,23 @@ a {
 /*  ---------------------------        TITLES      ---------------------------------------  */
 /*  ---------------------------        TITLES      ---------------------------------------  */
 
+.ppt1-title1 {
+    color: #ffffff;
+    font-size: 3.6458333333333335VW;
+    font-weight: 700;
+    position: absolute;
+    left: 9.79166667VW;
+    bottom: 11.15625VW;
+    z-index: 9;
+    /* opacity: 0; */
+}
 
 .ppt1-title2 {
     color: #ffffff;
     font-size: 3.6458333333333335VW;
     font-weight: 700;
     position: absolute;
-    left: 9.79166667VW;
+    left: 20vw;
     bottom: 11.15625VW;
     z-index: 15;
     /* opacity: 0; */
@@ -1021,7 +1031,7 @@ a {
 /*  ---------------------------        SIDEBAR      ---------------------------------------  */
 .sidebar-container {
     width: 7vw;
-    height: 23.958333333333336VW;
+    height: 27.958333333333336VW;
     position: absolute;
     left: 0;
     top: 9.78125VW;
@@ -1342,15 +1352,6 @@ a {
     color: #ff1b2a;
 }
 
-.footer-snake {
-    width: 24%;
-    height: 101%;
-    background-color: #ff1b2a;
-    position: absolute;
-    top: 0;
-    left: -25%;
-
-}
 
 /*  ---------------------------        TRIGGERS      ---------------------------------------  */
 /*  ---------------------------        TRIGGERS      ---------------------------------------  */
